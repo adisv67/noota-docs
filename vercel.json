@@ -1,0 +1,1644 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "cleanUrls": true,
+  "headers": [
+    {
+      "source": "/about/noota.md",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/about-us>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/about/noota",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/about-us>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/features/ai-note-taker.md",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/features/ai-note-taker>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/features/ai-note-taker",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/features/ai-note-taker>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/features/mcp-server.md",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/features/mcp-server>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/features/mcp-server",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/features/mcp-server>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/features/voice-dictation.md",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/features/voice-dictation>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/features/voice-dictation",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/features/voice-dictation>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/features/email-automation.md",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/features/email-agent>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/features/email-automation",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/features/email-agent>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/features/phone-calls.md",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/features/call-recorder>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/features/phone-calls",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/features/call-recorder>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/features/knowledge-management.md",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/features/ask-noota>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/features/knowledge-management",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/features/ask-noota>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/features/task-system.md",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/features/task-system>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/features/task-system",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/features/task-system>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/features/recruitment-agent.md",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/features/recruitment-agent>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/features/recruitment-agent",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/features/recruitment-agent>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/features/supported-languages.md",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/features/ai-note-taker>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/features/supported-languages",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/features/ai-note-taker>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/features/integrations.md",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/integrations>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/features/integrations",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/integrations>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/security/iso-27001-certification.md",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/security>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/security/iso-27001-certification",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/security>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/security/gdpr-and-data-processing.md",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/security>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/security/gdpr-and-data-processing",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/security>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/pricing/plans-and-tco.md",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/pricing>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/pricing/plans-and-tco",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/pricing>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/solutions/enterprise.md",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/solutions/enterprise>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/solutions/enterprise",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/solutions/enterprise>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/solutions/public-sector.md",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/solutions/public-sector>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/solutions/public-sector",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/solutions/public-sector>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/solutions/sales.md",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/features/sales-agent>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/solutions/sales",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/features/sales-agent>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/solutions/service-companies.md",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/solutions/service-companies>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/solutions/service-companies",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/solutions/service-companies>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/solutions/recruitment.md",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/solutions/recruitment>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/solutions/recruitment",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/solutions/recruitment>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/use-cases/sales-and-customer-calls.md",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/features/ai-note-taker>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/use-cases/sales-and-customer-calls",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/features/ai-note-taker>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/use-cases/recruitment-interviews.md",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/solutions/recruitment>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/use-cases/recruitment-interviews",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/solutions/recruitment>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/use-cases/executive-and-board-meetings.md",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/solutions/enterprise>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/use-cases/executive-and-board-meetings",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/solutions/enterprise>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/resources/meeting-templates.md",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/meeting-templates>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/resources/meeting-templates",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/meeting-templates>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/resources/blog-and-knowledge.md",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/blog>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/resources/blog-and-knowledge",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/blog>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/faq.md",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/pricing>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/faq",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/pricing>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/comparisons/noota-vs-fireflies.md",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/en/fireflies-vs-noota>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/comparisons/noota-vs-fireflies",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/en/fireflies-vs-noota>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/comparisons/noota-vs-otter.md",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/en/alternatives-to-otter-ai>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/comparisons/noota-vs-otter",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/en/alternatives-to-otter-ai>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/comparisons/noota-vs-leexi.md",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/comparisons/noota-vs-leexi>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/comparisons/noota-vs-leexi",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/comparisons/noota-vs-leexi>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/comparisons/noota-vs-tldv.md",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/en/tldv-vs-noota>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/comparisons/noota-vs-tldv",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/en/tldv-vs-noota>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/comparisons/noota-vs-granola.md",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/en/granola-review-alternatives>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/comparisons/noota-vs-granola",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/en/granola-review-alternatives>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/comparisons/noota-vs-fathom.md",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/comparisons/noota-vs-fathom>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/comparisons/noota-vs-fathom",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/comparisons/noota-vs-fathom>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/comparisons/noota-vs-notta.md",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/comparisons/noota-vs-notta>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/comparisons/noota-vs-notta",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/comparisons/noota-vs-notta>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/comparisons/noota-vs-jamie.md",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/comparisons/noota-vs-jamie>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/comparisons/noota-vs-jamie",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/comparisons/noota-vs-jamie>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/comparisons/noota-vs-copilot.md",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/en/microsoft-copilot-vs-noota>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/comparisons/noota-vs-copilot",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/en/microsoft-copilot-vs-noota>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/comparisons/noota-vs-gemini.md",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/en/noota-vs-gemini>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/comparisons/noota-vs-gemini",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/en/noota-vs-gemini>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/comparisons/noota-vs-plaud.md",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/en/plaud-ai-review-alternative>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/comparisons/noota-vs-plaud",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/en/plaud-ai-review-alternative>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/comparisons/noota-vs-happyscribe.md",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/en/happyscribe-review-alternatives>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/comparisons/noota-vs-happyscribe",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/en/happyscribe-review-alternatives>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/measurement-plan.md",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://docs.noota.io/measurement-plan.md>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/measurement-plan",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://docs.noota.io/measurement-plan.md>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/llms.txt",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/llms.txt>; rel=\"canonical\""
+        }
+      ]
+    },
+    {
+      "source": "/llms-full.txt",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Link",
+          "value": "<https://www.noota.io/llms.txt>; rel=\"canonical\""
+        }
+      ]
+    }
+  ]
+}

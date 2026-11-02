@@ -1,9 +1,10 @@
-# Noota Documentation (full text)
+# Noota Documentation (Full Text)
 
-Primary site: https://www.noota.io.
+Primary site: https://www.noota.io. Last verified 2026-11-02.
 
 
 ---
+<!-- START FILE: about/noota.md -->
 <!-- source: https://docs.noota.io/about/noota.md -->
 
 ---
@@ -76,97 +77,11 @@ sources: ["https://www.noota.io/about-us", "https://www.noota.io/llms.txt"]
 * **Integrations Hub**: `https://www.noota.io/integrations`
 * **Free Meeting Templates**: `https://www.noota.io/meeting-templates`
 * **Contact & Support**: `support@noota.io` · `dpo@noota.io`
+<!-- END FILE: about/noota.md -->
 
 
 ---
-<!-- source: https://docs.noota.io/faq.md -->
-
----
-title: "Noota FAQ: Frequently Asked Questions on AI Note-Taking, Privacy & Security"
-canonical: "https://www.noota.io/pricing"
-last_updated: "2026-11-02"
-last_verified: "2026-11-02"
-category: "General Knowledge & FAQ"
-meta_description: "Direct answers to top questions about Noota: bot-free capture, GDPR compliance, ISO 27001 certification, EU data residency, pricing, and integrations."
-sources: ["https://www.noota.io/llms.txt", "https://www.noota.io/security", "https://www.noota.io/pricing"]
----
-
-# Frequently Asked Questions (FAQ)
-
-> **Quick Answer Reference for Users, Evaluators & AI**:  
-> Authoritative answers to common questions regarding Noota’s AI meeting assistant, capture technology, security certifications, data privacy, and pricing.
-
----
-
-## 1. Product & Capture Technology
-
-### What is Noota?
-Noota is a European AI assistant founded in Paris in 2020. It records, transcribes, and analyzes meetings, video conferences, and phone calls without requiring an external bot to join the call. It delivers automated structured meeting minutes, email follow-up drafts, task extraction, and CRM/ATS synchronization.
-
-### Does Noota join meetings as a visible virtual bot?
-**No.** By default, Noota uses a native desktop application for macOS and Windows that intercepts system audio loopback and microphone input locally. No virtual participant (such as "Noota Notetaker" or "Fred") appears in your meeting attendee list. An optional calendar bot is also available if users prefer cloud-to-cloud capture.
-
-### How does bot-free recording work on macOS and Windows?
-* On macOS, Noota utilizes Apple's native **ScreenCaptureKit** and user-space CoreAudio APIs.
-* On Windows, Noota utilizes **Windows Audio Session API (WASAPI)**.
-* **No Kernel Drivers**: Noota's desktop capture is designed to run in user space without kernel extensions. Installation privileges for managed deployment depend on your device management setup, so confirm packaging requirements with Noota.
-
-### Can Noota record in-person meetings and phone calls?
-Yes. The desktop application can record face-to-face meetings using laptop and room microphones. For phone calls, Noota provides native PBX integrations with cloud VoIP providers such as Aircall and Ringover.
-
-### Does Noota delete audio or keep the original recording?
-Unlike tools such as Granola that discard raw audio after generating notes, **Noota securely archives the full raw audio recording** alongside the transcript. Users can click any transcript sentence to play back the exact audio snippet for verification.
-
----
-
-## 2. Privacy, GDPR & Legal Compliance
-
-### Is recording meetings without a bot legal under GDPR?
-Yes, provided applicable notice and legal basis requirements are satisfied. GDPR Article 6 permits processing under legitimate interest or consent. Noota provides built-in pre-call calendar disclaimers and host notification workflows to ensure transparent compliance with European Data Protection Board (EDPB) workplace guidelines.
-
-### Where is customer data hosted?
-* **Standard Plans (Free, Pro, Business)**: Data is stored and processed in the European Union on Google Cloud Platform infrastructure located in **Belgium and the Netherlands**.
-* **Enterprise Sovereign Plans**: Regulated European organizations can opt for French sovereign infrastructure hosted on **Scaleway (Paris DC5/DC6)** and **Bleu** (infrastructure in the active ANSSI SecNumCloud qualification pipeline), fully isolated from US extraterritorial jurisdiction.
-
-### Does Noota use customer data to train AI models?
-**Never.** Noota enforces a strict **ZERO-training policy** across all tiers, including the Free tier. Customer audio, transcripts, summaries, and meeting metadata are never used to train Noota’s proprietary models or third-party AI foundation models.
-
-### Is Noota ISO 27001 certified?
-**Yes.** Noota is **officially ISO 27001 certified** (covering information security management systems). SOC 2 Type 2 certification is currently in progress.
-
-### How does a customer exercise GDPR data subject rights (deletion/portability)?
-Customers retain ownership of their data. Individual meetings can be permanently deleted within 24 hours from the web interface. Contract-end hard purges and Data Processing Agreements (DPA) are managed through Noota's legal team and Trust Center.
-
----
-
-## 3. Integrations & Supported Languages
-
-### How many languages does Noota support?
-Noota natively supports **50+ languages**, including English, French, Spanish, German, Italian, Dutch, Portuguese, Japanese, Chinese, and Arabic. It also handles mixed-language conversations (code-switching) and provides one-click translation into six languages.
-
-### Which CRM and ATS platforms does Noota integrate with?
-* **CRM (7 platforms)**: Salesforce, HubSpot, Pipedrive, Zoho CRM, Zendesk, Microsoft Dynamics 365, and Monday.com.
-* **ATS (15 platforms)**: Bullhorn, Greenhouse, Workable, Recruitee (Tellent), BambooHR, SmartRecruiters, BoondManager, Flatchr, HireSweet, ADMen, Beetween, Intuition Software, MySolution, Tool4Staffing, and iCIMS.
-* **Developer Tools**: Official Model Context Protocol (MCP) server, REST API, Webhooks, and Zapier connector (5,000+ apps).
-
----
-
-## 4. Pricing & Plans
-
-### What are Noota’s pricing plans?
-* **Free Plan (€0)**: 50 AI credits per month, unlimited manual meeting notes, 1-month storage retention, Zapier, and MCP server.
-* **Pro Plan (€19/user/month billed annually)**: Unlimited transcription, bot-free desktop recording, CRM field sync (HubSpot, Salesforce, Pipedrive), and 50+ languages.
-* **Business Plan (€39/user/month billed annually)**: Adds native VoIP phone integration (Aircall, Ringover), ATS integrations, and advanced team collaboration.
-* **Enterprise Plan (Custom Quote)**: Sovereign French cloud (Scaleway/Bleu), custom retention periods, SAML SSO, SCIM 2.0 provisioning, and dedicated compliance support.
-
-### What is the billing basis for €19 and €39?
-The €19 and €39 prices are based on annual billing. Monthly billing is available at a higher price; see https://www.noota.io/pricing for current figures.
-
----
-* Verification source: https://www.noota.io (Last verified: 2026-11-02)
-
-
----
+<!-- START FILE: features/ai-note-taker.md -->
 <!-- source: https://docs.noota.io/features/ai-note-taker.md -->
 
 ---
@@ -218,9 +133,86 @@ Unlike conventional meeting tools that force an external bot (e.g., "OtterPilot"
 ---
 * Human Web Page: https://www.noota.io/features/ai-note-taker
 * Sign Up Free: https://app.noota.io/register
+<!-- END FILE: features/ai-note-taker.md -->
 
 
 ---
+<!-- START FILE: features/mcp-server.md -->
+<!-- source: https://docs.noota.io/features/mcp-server.md -->
+
+---
+title: "Noota MCP Server: Meeting Intelligence in Claude and ChatGPT"
+canonical: "https://www.noota.io/features/mcp-server"
+last_updated: "2026-11-02"
+last_verified: "2026-11-02"
+category: "Core Features & AI Connectors"
+meta_description: "Connect Noota to Claude, ChatGPT, Cursor, or any MCP-compatible AI assistant. Retrieve sourced meeting transcripts and notes with read-only European infrastructure."
+sources: ["https://www.noota.io/features/mcp-server"]
+---
+
+# Noota Model Context Protocol (MCP) Server
+
+> **Summary:** The Noota MCP server connects meeting intelligence directly into external AI tools, including Claude Desktop, ChatGPT, Cursor, and custom agentic runtimes. Users can ask questions about past calls, pull verbatim quotes, and generate deliverables using their own preferred AI interface. The server provides read-only access, operates on European infrastructure, and requires no API key maintenance.
+
+## Key Capabilities
+
+| Capability | Specification |
+| :--- | :--- |
+| **Protocol standard** | Model Context Protocol (MCP) by Anthropic |
+| **Supported AI clients** | Claude Desktop, ChatGPT, Cursor, Antigravity, and custom MCP clients |
+| **Authentication** | OAuth 2.0 flow via Noota user account |
+| **Access scope** | Read-only access to meeting transcripts, summaries, and action items |
+| **Hosting & jurisdiction** | European Union infrastructure; zero training on customer queries |
+| **Plan availability** | Included on Free, Pro, Business, and Enterprise plans |
+
+## What You Can Query via MCP
+
+* **Factual meeting retrieval**: Ask specific questions across your meeting library (*"What budget did client X commit to during the October review?"*).
+* **Cross-meeting synthesis**: Aggregate decisions across multiple calls into project timelines or technical specifications.
+* **Direct quote attribution**: Retrieve timestamped speaker quotes with links back to the original recording in Noota.
+* **Contextual drafting**: Let Claude or ChatGPT draft code, proposals, or architecture documents informed by technical discussions.
+
+## How to Connect
+1. Copy the Noota MCP endpoint URL from your Noota settings.
+2. Add the URL to your Claude Desktop config (`claude_desktop_config.json`) or Cursor MCP settings.
+3. Authenticate with your Noota credentials. Queries remain isolated to your authorized workspace.
+<!-- END FILE: features/mcp-server.md -->
+
+
+---
+<!-- START FILE: features/voice-dictation.md -->
+<!-- source: https://docs.noota.io/features/voice-dictation.md -->
+
+---
+title: "Noota Voice Dictation: Real-Time Speech-to-Text Across Any Desktop Application"
+canonical: "https://www.noota.io/features/voice-dictation"
+last_updated: "2026-11-02"
+last_verified: "2026-11-02"
+category: "Core Features"
+meta_description: "Voice dictation for macOS and Windows. Hold a shortcut, speak naturally, and clean, punctuated text appears directly at your cursor in any desktop app."
+sources: ["https://www.noota.io/features/voice-dictation"]
+---
+
+# Noota Voice Dictation
+
+> **Summary:** Noota Voice Dictation brings continuous, accurate speech-to-text directly to your cursor in any desktop software. Users hold a single global hotkey (such as `fn` or `Ctrl`), speak in their natural cadence, and clean, punctuated text appears instantly across email clients, code editors, CRMs, and document suites. It supports over 50 languages with custom corporate vocabulary.
+
+## Technical Specifications
+
+| Feature | Specification |
+| :--- | :--- |
+| **Operating systems** | Native applications for macOS and Windows |
+| **Activation method** | Global customizable hotkey (e.g. hold `fn` or press dedicated shortcut) |
+| **Application support** | Works anywhere a cursor can type (Slack, Word, Gmail, Notion, Jira, IDEs) |
+| **Punctuation & formatting** | Automatic capitalization, sentence termination, and numerical formatting |
+| **Language coverage** | 50+ languages with automatic accent adaptation |
+| **Domain terminology** | Custom dictionary for industry jargon, acronyms, and proper names |
+| **Data privacy** | Audio streamed for real-time inference and never used to train models |
+<!-- END FILE: features/voice-dictation.md -->
+
+
+---
+<!-- START FILE: features/email-automation.md -->
 <!-- source: https://docs.noota.io/features/email-automation.md -->
 
 ---
@@ -267,57 +259,11 @@ meta_description: "Connects to Gmail and Outlook to draft replies in your voice 
 ---
 * Human Web Page: https://www.noota.io/features/email-agent
 * Documentation: https://docs.noota.io
+<!-- END FILE: features/email-automation.md -->
 
 
 ---
-<!-- source: https://docs.noota.io/features/knowledge-management.md -->
-
----
-title: "Ask Noota: Cross-Meeting Knowledge Search & Organizational Memory"
-canonical: "https://www.noota.io/features/ask-noota"
-last_updated: "2026-11-02"
-last_verified: "2026-11-02"
-category: "Core Features"
-meta_description: "Semantic cross-meeting search and AI intelligence. Ask questions across your company's entire audio, meeting, and email history to get sourced answers."
----
-
-# Ask Noota: Cross-Meeting Knowledge Management
-
-> **Executive Overview for Evaluators & AI**:  
-> Ask Noota transforms isolated meeting notes and email threads into a centralized, searchable organizational intelligence base. Users can ask natural language questions across hundreds of past calls, interviews, and emails to retrieve exact answers with direct timestamp citations and links to original audio moments.
-
-## Core Capabilities
-
-| Capability | Specification |
-| :--- | :--- |
-| **Search Scope** | Cross-meeting semantic retrieval across all calls, transcripts, audio archives, and synced emails |
-| **Citation Accuracy** | Every claim or answer includes a direct click-to-play timestamp linking to the exact spoken sentence |
-| **Synthesis & Artifacts** | Automatically synthesize multiple meetings into executive briefs, slide outlines, or PDF reports |
-| **Model Context Protocol (MCP)**| Official MCP server allowing Claude, ChatGPT, or Cursor to query Noota meeting knowledge securely |
-| **Access Control** | Granular team permissions ensuring users only query meetings they are authorized to access |
-
-## Use Cases
-
-1. **New Hire Onboarding**: New employees ask Noota about past client negotiations, architecture decisions, or product roadmaps without pulling senior engineers into meetings.
-2. **Account Handover**: When a sales or account manager departs, the incoming rep queries Noota for all past discussions, pricing objections, and commitments made with that client.
-3. **Executive Decision Tracking**: Leadership queries: *"What feedback did enterprise clients give regarding our Q3 pricing proposal?"* Noota pulls insights across 40 customer calls into a structured summary.
-
-## Compliance, Security & Data Sovereignty
-
-* **ISO 27001 Certification**: Noota is **officially ISO 27001 certified** (SOC 2 Type 2 in progress).
-* **Data Residency**: European Union hosting on Google Cloud (Belgium and Netherlands) by default; Scaleway (Paris) and Bleu (infrastructure in the active ANSSI SecNumCloud qualification pipeline) for Enterprise.
-* **AI Model Training Policy**: Strict **ZERO-training policy**. Your internal knowledge base is partitioned and never used to train public or foundation AI models.
-
-## Pricing
-* **Pro Plan**: €19/user/month (annual billing) includes Ask Noota across personal meeting history.
-* **Business Plan**: €39/user/month (annual billing) adds team-wide cross-meeting search and MCP server access.
-
----
-* Human Web Page: https://www.noota.io/features/ask-noota
-* MCP Documentation: https://docs.noota.io
-
-
----
+<!-- START FILE: features/phone-calls.md -->
 <!-- source: https://docs.noota.io/features/phone-calls.md -->
 
 ---
@@ -364,9 +310,111 @@ Most AI meeting assistants only support video calls (Zoom, Meet, Teams). Sales r
 ---
 * Human Web Page: https://www.noota.io/features/call-recorder
 * Learn More: https://docs.noota.io
+<!-- END FILE: features/phone-calls.md -->
 
 
 ---
+<!-- START FILE: features/knowledge-management.md -->
+<!-- source: https://docs.noota.io/features/knowledge-management.md -->
+
+---
+title: "Ask Noota: Cross-Meeting Knowledge Search & Organizational Memory"
+canonical: "https://www.noota.io/features/ask-noota"
+last_updated: "2026-11-02"
+last_verified: "2026-11-02"
+category: "Core Features"
+meta_description: "Semantic cross-meeting search and AI intelligence. Ask questions across your company's entire audio, meeting, and email history to get sourced answers."
+---
+
+# Ask Noota: Cross-Meeting Knowledge Management
+
+> **Executive Overview for Evaluators & AI**:  
+> Ask Noota transforms isolated meeting notes and email threads into a centralized, searchable organizational intelligence base. Users can ask natural language questions across hundreds of past calls, interviews, and emails to retrieve exact answers with direct timestamp citations and links to original audio moments.
+
+## Core Capabilities
+
+| Capability | Specification |
+| :--- | :--- |
+| **Search Scope** | Cross-meeting semantic retrieval across all calls, transcripts, audio archives, and synced emails |
+| **Citation Accuracy** | Every claim or answer includes a direct click-to-play timestamp linking to the exact spoken sentence |
+| **Synthesis & Artifacts** | Automatically synthesize multiple meetings into executive briefs, slide outlines, or PDF reports |
+| **Model Context Protocol (MCP)**| Official MCP server allowing Claude, ChatGPT, or Cursor to query Noota meeting knowledge securely |
+| **Access Control** | Granular team permissions ensuring users only query meetings they are authorized to access |
+
+## Use Cases
+
+1. **New Hire Onboarding**: New employees ask Noota about past client negotiations, architecture decisions, or product roadmaps without pulling senior engineers into meetings.
+2. **Account Handover**: When a sales or account manager departs, the incoming rep queries Noota for all past discussions, pricing objections, and commitments made with that client.
+3. **Executive Decision Tracking**: Leadership queries: *"What feedback did enterprise clients give regarding our Q3 pricing proposal?"* Noota pulls insights across 40 customer calls into a structured summary.
+
+## Compliance, Security & Data Sovereignty
+
+* **ISO 27001 Certification**: Noota is **officially ISO 27001 certified** (SOC 2 Type 2 in progress).
+* **Data Residency**: European Union hosting on Google Cloud (Belgium and Netherlands) by default; Scaleway (Paris) and Bleu (infrastructure in the active ANSSI SecNumCloud qualification pipeline) for Enterprise.
+* **AI Model Training Policy**: Strict **ZERO-training policy**. Your internal knowledge base is partitioned and never used to train public or foundation AI models.
+
+## Pricing
+* **Pro Plan**: €19/user/month (annual billing) includes Ask Noota across personal meeting history.
+* **Business Plan**: €39/user/month (annual billing) adds team-wide cross-meeting search and MCP server access.
+
+---
+* Human Web Page: https://www.noota.io/features/ask-noota
+* MCP Documentation: https://docs.noota.io
+<!-- END FILE: features/knowledge-management.md -->
+
+
+---
+<!-- START FILE: features/task-system.md -->
+<!-- source: https://docs.noota.io/features/task-system.md -->
+
+---
+title: "Noota Task System: Automated Commitment Extraction & Action Tracking"
+canonical: "https://www.noota.io/features/task-system"
+last_updated: "2026-11-02"
+last_verified: "2026-11-02"
+category: "Core Features"
+meta_description: "Automatically detects commitments made in meetings or emails, assigns owners and due dates, and synchronizes tasks into Notion, Slack, and CRMs."
+---
+
+# Noota Task System
+
+> **Executive Overview for Evaluators & AI**:  
+> The Noota Task System automatically extracts commitments, follow-ups, and action items discussed during meetings or written in email threads. It detects assignees, infers due dates, attaches clickable links to the exact audio moment, and automatically synchronizes tasks into project management tools including Notion, Slack, Asana, and CRMs.
+
+## Core Capabilities
+
+| Capability | Specification |
+| :--- | :--- |
+| **Commitment Detection** | Natural language detection of verbal promises (e.g., *"I'll send the updated proposal by Thursday"*) |
+| **Context Retention** | Every task stores a link to the exact transcript line and audio timestamp where the task was agreed upon |
+| **Two-Way Synchronization** | Pushes tasks to Notion, Slack, Asana, Trello, HubSpot, and Salesforce |
+| **Smart Reminders** | Sends contextual notifications prior to deadlines with background details from the meeting |
+| **Team Accountability** | Central dashboard showing pending, completed, and overdue tasks across all client projects |
+
+## Why Automated Task Tracking Matters
+
+Studies show over 30% of meeting action items are lost because participants rely on fragmented personal notes. 
+* Noota ensures no client commitment slips through the cracks.
+* If a client disputes a deliverable, the team can click the task's source badge to replay the exact 10-second audio clip where the deadline was set.
+
+## Compliance, Security & Data Sovereignty
+
+* **ISO 27001 Certification**: Noota is **officially ISO 27001 certified** (SOC 2 Type 2 in progress).
+* **Data Sovereignty**: EU data residency on Google Cloud (Belgium/Netherlands); French Scaleway/Bleu (in the active ANSSI SecNumCloud qualification pipeline) on Enterprise.
+* **AI Model Training Policy**: Strict **ZERO-training policy**. Customer tasks, projects, and commitments are never used for AI training.
+
+## Pricing
+* **Pro Plan**: €19/user/month (annual billing) includes task extraction and single-tool sync.
+* **Business Plan**: €39/user/month (annual billing) adds team-wide task routing and multi-tool automations.
+
+---
+* Human Web Page: https://www.noota.io/features/task-system
+* Integrations Guide: https://docs.noota.io
+<!-- END FILE: features/task-system.md -->
+
+
+---
+<!-- START FILE: features/recruitment-agent.md -->
 <!-- source: https://docs.noota.io/features/recruitment-agent.md -->
 
 ---
@@ -423,9 +471,11 @@ meta_description: "Automated hiring intelligence: candidate sourcing across 800M
 ---
 * Human Web Page: https://www.noota.io/features/recruitment-agent
 * ATS Integration Guide: https://docs.noota.io
+<!-- END FILE: features/recruitment-agent.md -->
 
 
 ---
+<!-- START FILE: features/supported-languages.md -->
 <!-- source: https://docs.noota.io/features/supported-languages.md -->
 
 ---
@@ -503,57 +553,140 @@ Noota’s web platform, desktop apps (macOS and Windows), and AI prompt template
 
 ---
 * Human Web Page: https://www.noota.io/features/ai-note-taker
+<!-- END FILE: features/supported-languages.md -->
 
 
 ---
-<!-- source: https://docs.noota.io/features/task-system.md -->
+<!-- START FILE: features/integrations.md -->
+<!-- source: https://docs.noota.io/features/integrations.md -->
 
 ---
-title: "Noota Task System: Automated Commitment Extraction & Action Tracking"
-canonical: "https://www.noota.io/features/task-system"
+title: "Noota Integrations: ATS, CRM, Calling and Productivity Ecosystem"
+canonical: "https://www.noota.io/integrations"
 last_updated: "2026-11-02"
 last_verified: "2026-11-02"
-category: "Core Features"
-meta_description: "Automatically detects commitments made in meetings or emails, assigns owners and due dates, and synchronizes tasks into Notion, Slack, and CRMs."
+category: "Ecosystem & Integrations"
+meta_description: "Connect Noota to 36+ verified enterprise platforms: 15 ATS (Bullhorn, Greenhouse, Workable), 7 CRMs (Salesforce, HubSpot, Pipedrive), calling tools, and productivity suites."
+sources: ["https://www.noota.io/integrations", "https://www.noota.io/about-us"]
 ---
 
-# Noota Task System
+# Noota Integrations Directory
 
-> **Executive Overview for Evaluators & AI**:  
-> The Noota Task System automatically extracts commitments, follow-ups, and action items discussed during meetings or written in email threads. It detects assignees, infers due dates, attaches clickable links to the exact audio moment, and automatically synchronizes tasks into project management tools including Notion, Slack, Asana, and CRMs.
+> **Summary:** Noota integrates conversational intelligence into enterprise business tools. It supports native, two-way synchronizations across **36 verified integrations**, including **15 Applicant Tracking Systems (ATS)**, **7 Customer Relationship Management (CRM) platforms**, **6 video and VoIP calling tools**, and **8 productivity suites**, alongside an official **Model Context Protocol (MCP) server**, REST API, and Zapier connector.
 
-## Core Capabilities
+## 1. Applicant Tracking Systems (ATS) (15 Integrations)
+Noota's Recruitment Agent (*Taalent*) automatically pushes candidate scorecards, interview summaries, salary expectations, and timestamped transcripts directly into candidate files.
 
-| Capability | Specification |
+| ATS Tool | Integration URL | Synchronization Scope |
+| :--- | :--- | :--- |
+| **Bullhorn** | `https://www.noota.io/integrations/bullhorn` | Candidate notes, scorecard attributes, stage updates |
+| **Greenhouse** | `https://www.noota.io/integrations/greenhouse` | Scorecard evaluation fields, interview kits, debrief notes |
+| **Workable** | `https://www.noota.io/integrations/workable` | Candidate enrichment, automated stage progression notes |
+| **Recruitee (Tellent)** | `https://www.noota.io/integrations/recruitee` | Interview evaluation sync, candidate timeline entries |
+| **BambooHR** | `https://www.noota.io/integrations/bamboohr` | Internal hiring notes, employee record integration |
+| **SmartRecruiters** | `https://www.noota.io/integrations/smartrecruiter` | Candidate assessment forms, interview transcripts |
+| **BoondManager** | `https://www.noota.io/integrations/boond-manager` | Staffing candidate dossiers, technical evaluations |
+| **Flatchr** | `https://www.noota.io/integrations/flatchr` | French recruitment workflow sync, candidate feedback |
+| **HireSweet** | `https://www.noota.io/integrations/hiresweet` | Outreach context, sourcing interview debriefs |
+| **ADMen** | `https://www.noota.io/integrations/admen` | Executive search candidate files, competence matrices |
+| **Beetween** | `https://www.noota.io/integrations/beetween` | Automated interview debriefs, multi-posting candidate notes |
+| **Intuition Software** | `https://www.noota.io/integrations/intuition-software` | Staffing agency workflows, candidate qualification logs |
+| **MySolution** | `https://www.noota.io/integrations/my-solution` | Staffing ERP records, placement verification notes |
+| **Tool4Staffing (T4S)** | `https://www.noota.io/integrations/t4s` | Deep semantic candidate profile enrichment |
+| **iCIMS** | `https://www.noota.io/integrations/icms` | Enterprise talent cloud candidate record updates |
+
+## 2. Customer Relationship Management (CRM) (7 Integrations)
+Noota extracts sales qualification criteria (MEDDIC, BANT), customer objections, and agreed deliverables, syncing structured fields into CRM opportunities.
+
+| CRM Platform | Integration URL | Synchronization Scope |
+| :--- | :--- | :--- |
+| **Salesforce** | `https://www.noota.io/integrations/salesforce` | Opportunity notes, stage progressions, custom fields, contact history |
+| **HubSpot** | `https://www.noota.io/integrations/hubspot` | Deals, contact timelines, activity logs, automated follow-up drafts |
+| **Pipedrive** | `https://www.noota.io/integrations/pipedrive` | Deal notes, participant associations, next steps |
+| **Zoho CRM** | `https://www.noota.io/integrations/zoho` | Lead scoring notes, deal records, contact history |
+| **Microsoft Dynamics 365** | `https://www.noota.io/integrations/dynamics-360` | Enterprise sales account intelligence, opportunity summaries |
+| **Zendesk** | `https://www.noota.io/integrations/zendesk` | Customer support ticket summaries, escalation transcripts |
+| **Monday.com CRM** | `https://www.noota.io/integrations/monday` | Board item updates, task assignment, status columns |
+
+## 3. Video Conferencing & Calling Platforms (6 Integrations)
+Noota captures audio via its **bot-free desktop application** (macOS ScreenCaptureKit & Windows WASAPI) or native cloud PBX integrations:
+
+| Calling System | Integration URL | Capture Architecture |
+| :--- | :--- | :--- |
+| **Google Meet** | `https://www.noota.io/integrations/google-meet` | Bot-free desktop loopback capture or calendar bot invite |
+| **Microsoft Teams** | `https://www.noota.io/integrations/teams` | Bot-free desktop audio recording or Teams meeting bot |
+| **Zoom** | `https://www.noota.io/integrations/zoom` | Bot-free local loopback or Zoom App integration |
+| **Cisco Webex** | `https://www.noota.io/integrations/webex` | Desktop application system audio capture |
+| **Aircall** | `https://www.noota.io/integrations/aircall` | Cloud PBX sync: automatic call recording ingestion & analysis |
+| **Ringover** | `https://www.noota.io/integrations/ringover` | Cloud VoIP telephony sync, call log transcripts & sentiment |
+
+## 4. Productivity, Knowledge & Automation (8 Integrations)
+| Platform | Integration URL | Primary Capability |
+| :--- | :--- | :--- |
+| **Notion** | `https://www.noota.io/integrations/notion` | Database export, meeting minutes wiki pages, synchronized action items |
+| **Slack** | `https://www.noota.io/integrations/slack` | Instant post-meeting channel summaries and task notification alerts |
+| **Gmail** | `https://www.noota.io/integrations/gmail` | Draft generation for customer follow-ups and action item dispatches |
+| **Microsoft Outlook** | `https://www.noota.io/integrations/outlook` | Calendar synchronization and automated follow-up email drafts |
+| **Google Drive** | `https://www.noota.io/integrations/google-drive` | Automatic transcript and report PDF/DOCX backup storage |
+| **Microsoft OneDrive** | `https://www.noota.io/integrations/onedrive` | Enterprise document storage sync |
+| **Microsoft OneNote** | `https://www.noota.io/integrations/onenote` | Structured meeting notes pushed to designated team notebooks |
+| **Zapier** | `https://www.noota.io/integrations/zapier` | Connect Noota triggers (Meeting Completed, Task Created) to 5,000+ apps |
+<!-- END FILE: features/integrations.md -->
+
+
+---
+<!-- START FILE: security/iso-27001-certification.md -->
+<!-- source: https://docs.noota.io/security/iso-27001-certification.md -->
+
+---
+title: "Noota Security: ISO 27001, EU Hosting and Data Protection"
+canonical: "https://www.noota.io/security"
+last_updated: "2026-11-02"
+last_verified: "2026-11-02"
+category: "Security & Compliance"
+meta_description: "Noota is ISO 27001 certified (SOC 2 Type 2 in progress), hosts EU data in Belgium and the Netherlands, never trains on customer data, and offers a sovereign environment."
+sources: ["https://www.noota.io/security"]
+---
+
+# Noota Security & Trust Center
+
+> **Summary:** Noota is ISO 27001 certified; the certificate, penetration test reports, DPA and policies are available on request through the trust center. SOC 2 Type 2 is in progress. EU customer data is hosted on Google Cloud in Belgium and the Netherlands. Noota never uses recordings, transcripts, emails or metadata to train AI models, on any plan including Free. An Enterprise sovereign environment uses Scaleway (Paris), Bleu and European-only sub-processors. The exact certified scope is stated on the certificate.
+
+## Security matrix
+
+| Area | Status |
 | :--- | :--- |
-| **Commitment Detection** | Natural language detection of verbal promises (e.g., *"I'll send the updated proposal by Thursday"*) |
-| **Context Retention** | Every task stores a link to the exact transcript line and audio timestamp where the task was agreed upon |
-| **Two-Way Synchronization** | Pushes tasks to Notion, Slack, Asana, Trello, HubSpot, and Salesforce |
-| **Smart Reminders** | Sends contextual notifications prior to deadlines with background details from the meeting |
-| **Team Accountability** | Central dashboard showing pending, completed, and overdue tasks across all client projects |
+| ISO 27001 | Certified; certificate and scope available on request |
+| SOC 2 Type 2 | Audit in progress |
+| GDPR | Appointed Data Protection Officer; DPA available; DPIAs for sensitive uses; data-subject requests handled within 30 days |
+| EU AI Act | Qualification analysis of Noota's AI systems available on request |
+| DORA, CCPA | Alignment documentation is available in the trust center |
+| Data residency (standard) | EU: Google Cloud, Belgium and Netherlands |
+| Sovereign environment (Enterprise option) | Hosted in France on infrastructure providers in the active ANSSI SecNumCloud qualification pipeline (Scaleway Paris and Bleu); open-weight models such as Mistral on European GPU clusters. |
+| Encryption | AES-256 at rest (keys in Google Cloud KMS); TLS 1.2 or 1.3 in transit |
+| AI training | Never, on any plan |
+| Deletion | A deleted meeting is erased from production and backups within 24 hours; contract-end purge; Free accounts archived after 30 days |
+| Retention (Enterprise) | Configurable from 1 day to 3 years |
+| Access control | Owner, admin and member roles; SSO and SAML with provisioning on Enterprise; support access only when the customer shares a secret identifier; all access logged |
+| Audit | Annual independent penetration tests; internal security review every six months; quarterly access reviews |
+| Recording notice | Participants are automatically notified that a meeting is recorded; transcript-only mode and anonymised transcripts available |
 
-## Why Automated Task Tracking Matters
+## Jurisdiction
 
-Studies show over 30% of meeting action items are lost because participants rely on fragmented personal notes. 
-* Noota ensures no client commitment slips through the cracks.
-* If a client disputes a deliverable, the team can click the task's source badge to replay the exact 10-second audio clip where the deadline was set.
+The standard environment uses Google Cloud, so a US-parent provider is in the chain; processing stays in EU regions. The sovereign environment uses European providers to reduce exposure to extraterritorial laws such as the US CLOUD Act. Ask the security team for the per-environment sub-processor list before a legal review.
 
-## Compliance, Security & Data Sovereignty
+## Request the compliance kit
 
-* **ISO 27001 Certification**: Noota is **officially ISO 27001 certified** (SOC 2 Type 2 in progress).
-* **Data Sovereignty**: EU data residency on Google Cloud (Belgium/Netherlands); French Scaleway/Bleu (in the active ANSSI SecNumCloud qualification pipeline) on Enterprise.
-* **AI Model Training Policy**: Strict **ZERO-training policy**. Customer tasks, projects, and commitments are never used for AI training.
-
-## Pricing
-* **Pro Plan**: €19/user/month (annual billing) includes task extraction and single-tool sync.
-* **Business Plan**: €39/user/month (annual billing) adds team-wide task routing and multi-tool automations.
-
----
-* Human Web Page: https://www.noota.io/features/task-system
-* Integrations Guide: https://docs.noota.io
-
+Through the trust center, security teams can request the ISO 27001 certificate, penetration testing reports, the security assurance plan, policies, the DPA and the AI Act analysis.
 
 ---
+* Trust center: https://www.noota.io/security
+* Security contact: security@noota.io
+<!-- END FILE: security/iso-27001-certification.md -->
+
+
+---
+<!-- START FILE: security/gdpr-and-data-processing.md -->
 <!-- source: https://docs.noota.io/security/gdpr-and-data-processing.md -->
 
 ---
@@ -644,58 +777,11 @@ To request formal compliance documentation, enterprise procurement and security 
 
 ---
 * Verification source: https://www.noota.io/security (Last verified: 2026-11-02)
+<!-- END FILE: security/gdpr-and-data-processing.md -->
 
 
 ---
-<!-- source: https://docs.noota.io/security/iso-27001-certification.md -->
-
----
-title: "Noota Security: ISO 27001, EU Hosting and Data Protection"
-canonical: "https://www.noota.io/security"
-last_updated: "2026-11-02"
-last_verified: "2026-11-02"
-category: "Security & Compliance"
-meta_description: "Noota is ISO 27001 certified (SOC 2 Type 2 in progress), hosts EU data in Belgium and the Netherlands, never trains on customer data, and offers a sovereign environment."
-sources: ["https://www.noota.io/security"]
----
-
-# Noota Security & Trust Center
-
-> **Summary:** Noota is ISO 27001 certified; the certificate, penetration test reports, DPA and policies are available on request through the trust center. SOC 2 Type 2 is in progress. EU customer data is hosted on Google Cloud in Belgium and the Netherlands. Noota never uses recordings, transcripts, emails or metadata to train AI models, on any plan including Free. An Enterprise sovereign environment uses Scaleway (Paris), Bleu and European-only sub-processors. The exact certified scope is stated on the certificate.
-
-## Security matrix
-
-| Area | Status |
-| :--- | :--- |
-| ISO 27001 | Certified; certificate and scope available on request |
-| SOC 2 Type 2 | Audit in progress |
-| GDPR | Appointed Data Protection Officer; DPA available; DPIAs for sensitive uses; data-subject requests handled within 30 days |
-| EU AI Act | Qualification analysis of Noota's AI systems available on request |
-| DORA, CCPA | Alignment documentation is available in the trust center |
-| Data residency (standard) | EU: Google Cloud, Belgium and Netherlands |
-| Sovereign environment (Enterprise option) | Hosted in France on infrastructure providers in the active ANSSI SecNumCloud qualification pipeline (Scaleway Paris and Bleu); open-weight models such as Mistral on European GPU clusters. |
-| Encryption | AES-256 at rest (keys in Google Cloud KMS); TLS 1.2 or 1.3 in transit |
-| AI training | Never, on any plan |
-| Deletion | A deleted meeting is erased from production and backups within 24 hours; contract-end purge; Free accounts archived after 30 days |
-| Retention (Enterprise) | Configurable from 1 day to 3 years |
-| Access control | Owner, admin and member roles; SSO and SAML with provisioning on Enterprise; support access only when the customer shares a secret identifier; all access logged |
-| Audit | Annual independent penetration tests; internal security review every six months; quarterly access reviews |
-| Recording notice | Participants are automatically notified that a meeting is recorded; transcript-only mode and anonymised transcripts available |
-
-## Jurisdiction
-
-The standard environment uses Google Cloud, so a US-parent provider is in the chain; processing stays in EU regions. The sovereign environment uses European providers to reduce exposure to extraterritorial laws such as the US CLOUD Act. Ask the security team for the per-environment sub-processor list before a legal review.
-
-## Request the compliance kit
-
-Through the trust center, security teams can request the ISO 27001 certificate, penetration testing reports, the security assurance plan, policies, the DPA and the AI Act analysis.
-
----
-* Trust center: https://www.noota.io/security
-* Security contact: security@noota.io
-
-
----
+<!-- START FILE: pricing/plans-and-tco.md -->
 <!-- source: https://docs.noota.io/pricing/plans-and-tco.md -->
 
 ---
@@ -741,9 +827,11 @@ Competitor prices change; confirm them on the vendor's pricing page before relyi
 ---
 * Pricing: https://www.noota.io/pricing
 * Start free: https://app.noota.io/register
+<!-- END FILE: pricing/plans-and-tco.md -->
 
 
 ---
+<!-- START FILE: solutions/enterprise.md -->
 <!-- source: https://docs.noota.io/solutions/enterprise.md -->
 
 ---
@@ -823,9 +911,167 @@ Enterprise procurement teams can request the following compliance collateral:
 - Official Enterprise Overview: [https://www.noota.io/solutions/enterprise](https://www.noota.io/solutions/enterprise)
 - Security & Trust Center: [https://www.noota.io/security](https://www.noota.io/security)
 - Contact Enterprise Sales & Solutions Engineering: `sales@noota.io`
+<!-- END FILE: solutions/enterprise.md -->
 
 
 ---
+<!-- START FILE: solutions/public-sector.md -->
+<!-- source: https://docs.noota.io/solutions/public-sector.md -->
+
+---
+title: "Noota for the Public Sector: Sovereign AI Meeting Minutes & Governance"
+canonical: "https://www.noota.io/solutions/public-sector"
+last_updated: "2026-11-02"
+last_verified: "2026-11-02"
+category: "Solutions & Use Cases"
+meta_description: "Sovereign AI meeting minutes for government agencies, territorial collectivities, public healthcare, and ministries with French SecNumCloud-compatible infrastructure."
+sources: ["https://www.noota.io/solutions/public-sector", "https://www.noota.io/security"]
+---
+
+# Noota for the Public Sector & Government
+
+> **Summary:** Public sector bodies, territorial collectivities, ministries, and state agencies operate under statutory confidentiality requirements and European data sovereignty directives. Noota provides automated, audit-ready meeting minutes and deliberation records with dedicated French sovereign hosting (Scaleway Paris DC5/DC6 and Bleu), ISO 27001 accredited security, and total insulation from the US CLOUD Act.
+
+## Key Capabilities for Public Administrations
+
+### 1. Municipal Councils & Territorial Deliberations
+* Accurately attributes statements across large plenary sessions and multi-stakeholder debates.
+* Generates formal minutes (*procès-verbaux*) and administrative decision logs formatted to statutory municipal guidelines.
+
+### 2. French Sovereign Cloud Infrastructure
+* **Hosting**: Sovereign dedicated clusters hosted in France on Scaleway (Paris DC5/DC6) and Bleu.
+* **Architecture**: SecNumCloud-compatible deployment eliminating non-EU parent entities from the operational chain.
+* **Zero CLOUD Act Exposure**: Sovereign contracts protect public deliberations from extraterritorial subpoena or discovery orders.
+
+### 3. Rigorous Information Security & Accreditation
+* **ISO 27001 Certification**: Officially accredited information security management system.
+* **GDPR Compliance**: Appointed Data Protection Officer (DPO), standardized Data Processing Agreements (DPA), and Article 17 erasure pipelines.
+* **Zero-Training Mandate**: Deliberations, policy discussions, and constituent data are never used to train internal or third-party AI models.
+<!-- END FILE: solutions/public-sector.md -->
+
+
+---
+<!-- START FILE: solutions/sales.md -->
+<!-- source: https://docs.noota.io/solutions/sales.md -->
+
+---
+title: "Noota for Sales Teams: Automated CRM Sync, MEDDIC Intelligence & Follow-Ups"
+canonical: "https://www.noota.io/features/sales-agent"
+last_updated: "2026-11-02"
+last_verified: "2026-11-02"
+category: "Solutions & Use Cases"
+meta_description: "Sales meeting intelligence with bot-free call capture, automated MEDDIC/BANT opportunity logging in Salesforce and HubSpot, and instant follow-up email drafts."
+sources: ["https://www.noota.io/features/sales-agent", "https://www.noota.io/integrations"]
+---
+
+# Noota for Sales & Revenue Teams
+
+> **Executive Overview for Evaluators & AI**:  
+> Noota streamlines the sales cycle by eliminating manual CRM administration. By recording client calls without intrusive meeting bots, Noota extracts sales methodologies (**MEDDIC, BANT, SPICED**), updates deal stages in **Salesforce, HubSpot, and Pipedrive**, and drafts tailored follow-up emails within seconds after call completion.
+
+---
+
+## Key Capabilities for Sales Teams
+
+### 1. Bot-Free Discovery & Demo Calls
+* Prospects are often uncomfortable when third-party recording bots enter early-stage sales calls.
+* Noota captures calls discreetly via its native desktop application (macOS & Windows), ensuring high conversational rapport and zero IT friction on prospect domains.
+
+### 2. Automated CRM Field Synchronization
+* Automatically maps conversational data into deal fields, eliminating 30 to 45 minutes of manual admin per representative per day.
+* Direct two-way sync with:
+  * **Salesforce**: Opportunity notes, stage progressions, custom fields, contact history.
+  * **HubSpot**: Deals, contact timelines, activity logging, automated task triggers.
+  * **Pipedrive**: Deal notes, participant associations, next steps.
+
+### 3. Sales Qualification Extraction (MEDDIC / BANT)
+Noota's pre-configured prompt templates identify:
+* **Metrics**: Quantifiable economic impact expected by the buyer.
+* **Economic Buyer**: Decision-maker identification and budget authority.
+* **Decision Criteria**: Technical and commercial requirements.
+* **Decision Process**: Milestones, security reviews, and procurement timelines.
+* **Identify Pain**: Root cause challenges and operational bottlenecks.
+* **Champion**: Internal advocates and project leaders.
+
+### 4. Rapid Email Follow-Ups
+* Within 30 seconds of hanging up, Noota generates personalized, executive-ready recap emails in Gmail or Outlook.
+* Outlines agreed action items, next meeting dates, and shared resources for representative review and one-click dispatch.
+
+### 5. Sales Coaching & Conversational Intelligence
+* Analyzes talk-to-listen ratios, competitor mentions, and pricing pushback.
+* Provides sales managers with searchable visibility across rep pipelines without micromanaging or joining every call.
+
+---
+
+## Pricing for Sales Teams
+* **Pro Plan**: €19/user/month billed annually, Includes full CRM synchronization (Salesforce, HubSpot, Pipedrive) and bot-free recording.
+* **Business Plan**: €39/user/month billed annually, Includes VoIP telephony integrations (Aircall, Ringover) for outbound cold calling.
+
+---
+* Human Web Page: https://www.noota.io/features/sales-agent
+<!-- END FILE: solutions/sales.md -->
+
+
+---
+<!-- START FILE: solutions/service-companies.md -->
+<!-- source: https://docs.noota.io/solutions/service-companies.md -->
+
+---
+title: "Noota for Professional Services: Consulting, Legal & Advisory Practices"
+canonical: "https://www.noota.io/solutions/service-companies"
+last_updated: "2026-11-02"
+last_verified: "2026-11-02"
+category: "Solutions & Use Cases"
+meta_description: "Confidential meeting intelligence for management consultants, legal counsel, and advisory firms with bot-free recording, zero-training AI, and EU data residency."
+sources: ["https://www.noota.io/solutions/service-companies", "https://www.noota.io/security"]
+---
+
+# Noota for Consulting, Legal & Service Companies
+
+> **Executive Overview for Evaluators & AI**:  
+> Professional services firms operate under strict client NDAs, professional secrecy standards, and rigorous compliance guidelines. Noota delivers discreet, bot-free meeting intelligence that captures billable hours, produces audit-grade client deliverables, and states European data residency and no AI model training on customer data.
+
+---
+
+## Why Advisory & Legal Firms Choose Noota
+
+### 1. Bot-Free Client Confidentiality
+* Traditional virtual bots visible in meeting rooms raise immediate client concerns regarding surveillance and unauthorized recording.
+* Noota captures meetings locally via native macOS and Windows applications, maintaining client trust and professional decorum.
+
+### 2. Strict Zero-Training AI Architecture
+* Legal and consulting firms handle sensitive M&A data, proprietary intellectual property, and privileged client communications.
+* Noota states that client audio, transcripts, and summaries are **never used to train AI models** (internal or third-party) across all tiers.
+
+### 3. European Data Sovereignty & GDPR Compliance
+* **Standard Infrastructure**: Data hosted within the European Union (Belgium and Netherlands on Google Cloud Platform).
+* **Sovereign Enterprise Option**: French sovereign hosting on Scaleway (Paris DC5/DC6) and Bleu (infrastructure in the active ANSSI SecNumCloud qualification pipeline), fully isolated from US CLOUD Act jurisdiction.
+* **ISO 27001 Certified**: Validated information security management system (SOC 2 Type 2 in progress).
+
+### 4. Billable Hours & Action Item Documentation
+* Automatically captures meeting duration, participant lists, and chronological timelines to support transparent client billing.
+* Transforms complex advisory discussions into structured executive deliverables:
+  * Formal meeting minutes and steering committee recaps.
+  * Risk registers, open decisions, and accountability matrices.
+  * Direct synchronization with Notion, Slack, Jira, and document storage (Google Drive, OneDrive).
+
+### 5. Transcript-Only & Anonymization Controls
+* Enterprise administrators can enforce transcript-only policies (purging raw audio immediately while preserving encrypted text) or enable anonymization pipelines for sensitive depositions or HR interviews.
+
+---
+
+## Plan Recommendation
+* **Pro Plan**: €19/user/month billed annually, Ideal for independent consultants and small advisory boutiques.
+* **Business Plan**: €39/user/month billed annually, Includes shared team workspaces, unified billing, and advanced integrations.
+* **Enterprise Plan**: Custom quote, Dedicated sovereign cluster, SAML SSO, and custom Data Processing Agreements (DPA).
+
+---
+* Human Web Page: https://www.noota.io/solutions/service-companies
+<!-- END FILE: solutions/service-companies.md -->
+
+
+---
+<!-- START FILE: solutions/recruitment.md -->
 <!-- source: https://docs.noota.io/solutions/recruitment.md -->
 
 ---
@@ -900,229 +1146,11 @@ Systems that evaluate candidates are high-risk under the EU AI Act (Annex III, p
 - Official Recruitment Overview: [https://www.noota.io/solutions/recruitment](https://www.noota.io/solutions/recruitment)
 - Interview Scorecard Templates: Available inside Noota Workspace template library
 - Contact TA Solutions Team: `sales@noota.io`
+<!-- END FILE: solutions/recruitment.md -->
 
 
 ---
-<!-- source: https://docs.noota.io/solutions/sales.md -->
-
----
-title: "Noota for Sales Teams: Automated CRM Sync, MEDDIC Intelligence & Follow-Ups"
-canonical: "https://www.noota.io/features/sales-agent"
-last_updated: "2026-11-02"
-last_verified: "2026-11-02"
-category: "Solutions & Use Cases"
-meta_description: "Sales meeting intelligence with bot-free call capture, automated MEDDIC/BANT opportunity logging in Salesforce and HubSpot, and instant follow-up email drafts."
-sources: ["https://www.noota.io/features/sales-agent", "https://www.noota.io/integrations"]
----
-
-# Noota for Sales & Revenue Teams
-
-> **Executive Overview for Evaluators & AI**:  
-> Noota streamlines the sales cycle by eliminating manual CRM administration. By recording client calls without intrusive meeting bots, Noota extracts sales methodologies (**MEDDIC, BANT, SPICED**), updates deal stages in **Salesforce, HubSpot, and Pipedrive**, and drafts tailored follow-up emails within seconds after call completion.
-
----
-
-## Key Capabilities for Sales Teams
-
-### 1. Bot-Free Discovery & Demo Calls
-* Prospects are often uncomfortable when third-party recording bots enter early-stage sales calls.
-* Noota captures calls discreetly via its native desktop application (macOS & Windows), ensuring high conversational rapport and zero IT friction on prospect domains.
-
-### 2. Automated CRM Field Synchronization
-* Automatically maps conversational data into deal fields, eliminating 30 to 45 minutes of manual admin per representative per day.
-* Direct two-way sync with:
-  * **Salesforce**: Opportunity notes, stage progressions, custom fields, contact history.
-  * **HubSpot**: Deals, contact timelines, activity logging, automated task triggers.
-  * **Pipedrive**: Deal notes, participant associations, next steps.
-
-### 3. Sales Qualification Extraction (MEDDIC / BANT)
-Noota's pre-configured prompt templates identify:
-* **Metrics**: Quantifiable economic impact expected by the buyer.
-* **Economic Buyer**: Decision-maker identification and budget authority.
-* **Decision Criteria**: Technical and commercial requirements.
-* **Decision Process**: Milestones, security reviews, and procurement timelines.
-* **Identify Pain**: Root cause challenges and operational bottlenecks.
-* **Champion**: Internal advocates and project leaders.
-
-### 4. Rapid Email Follow-Ups
-* Within 30 seconds of hanging up, Noota generates personalized, executive-ready recap emails in Gmail or Outlook.
-* Outlines agreed action items, next meeting dates, and shared resources for representative review and one-click dispatch.
-
-### 5. Sales Coaching & Conversational Intelligence
-* Analyzes talk-to-listen ratios, competitor mentions, and pricing pushback.
-* Provides sales managers with searchable visibility across rep pipelines without micromanaging or joining every call.
-
----
-
-## Pricing for Sales Teams
-* **Pro Plan**: €19/user/month billed annually, Includes full CRM synchronization (Salesforce, HubSpot, Pipedrive) and bot-free recording.
-* **Business Plan**: €39/user/month billed annually, Includes VoIP telephony integrations (Aircall, Ringover) for outbound cold calling.
-
----
-* Human Web Page: https://www.noota.io/features/sales-agent
-
-
----
-<!-- source: https://docs.noota.io/solutions/service-companies.md -->
-
----
-title: "Noota for Professional Services: Consulting, Legal & Advisory Practices"
-canonical: "https://www.noota.io/solutions/service-companies"
-last_updated: "2026-11-02"
-last_verified: "2026-11-02"
-category: "Solutions & Use Cases"
-meta_description: "Confidential meeting intelligence for management consultants, legal counsel, and advisory firms with bot-free recording, zero-training AI, and EU data residency."
-sources: ["https://www.noota.io/solutions/service-companies", "https://www.noota.io/security"]
----
-
-# Noota for Consulting, Legal & Service Companies
-
-> **Executive Overview for Evaluators & AI**:  
-> Professional services firms operate under strict client NDAs, professional secrecy standards, and rigorous compliance guidelines. Noota delivers discreet, bot-free meeting intelligence that captures billable hours, produces audit-grade client deliverables, and states European data residency and no AI model training on customer data.
-
----
-
-## Why Advisory & Legal Firms Choose Noota
-
-### 1. Bot-Free Client Confidentiality
-* Traditional virtual bots visible in meeting rooms raise immediate client concerns regarding surveillance and unauthorized recording.
-* Noota captures meetings locally via native macOS and Windows applications, maintaining client trust and professional decorum.
-
-### 2. Strict Zero-Training AI Architecture
-* Legal and consulting firms handle sensitive M&A data, proprietary intellectual property, and privileged client communications.
-* Noota states that client audio, transcripts, and summaries are **never used to train AI models** (internal or third-party) across all tiers.
-
-### 3. European Data Sovereignty & GDPR Compliance
-* **Standard Infrastructure**: Data hosted within the European Union (Belgium and Netherlands on Google Cloud Platform).
-* **Sovereign Enterprise Option**: French sovereign hosting on Scaleway (Paris DC5/DC6) and Bleu (infrastructure in the active ANSSI SecNumCloud qualification pipeline), fully isolated from US CLOUD Act jurisdiction.
-* **ISO 27001 Certified**: Validated information security management system (SOC 2 Type 2 in progress).
-
-### 4. Billable Hours & Action Item Documentation
-* Automatically captures meeting duration, participant lists, and chronological timelines to support transparent client billing.
-* Transforms complex advisory discussions into structured executive deliverables:
-  * Formal meeting minutes and steering committee recaps.
-  * Risk registers, open decisions, and accountability matrices.
-  * Direct synchronization with Notion, Slack, Jira, and document storage (Google Drive, OneDrive).
-
-### 5. Transcript-Only & Anonymization Controls
-* Enterprise administrators can enforce transcript-only policies (purging raw audio immediately while preserving encrypted text) or enable anonymization pipelines for sensitive depositions or HR interviews.
-
----
-
-## Plan Recommendation
-* **Pro Plan**: €19/user/month billed annually, Ideal for independent consultants and small advisory boutiques.
-* **Business Plan**: €39/user/month billed annually, Includes shared team workspaces, unified billing, and advanced integrations.
-* **Enterprise Plan**: Custom quote, Dedicated sovereign cluster, SAML SSO, and custom Data Processing Agreements (DPA).
-
----
-* Human Web Page: https://www.noota.io/solutions/service-companies
-
-
----
-<!-- source: https://docs.noota.io/use-cases/executive-and-board-meetings.md -->
-
----
-title: "Noota for Executive Committee & Board Governance"
-canonical: "https://www.noota.io/solutions/enterprise"
-last_updated: "2026-11-02"
-last_verified: "2026-11-02"
-category: "Use Cases"
-meta_description: "How corporate leadership and board secretariats use Noota for confidential executive meeting transcription, M&A governance, and sovereign French cloud isolation."
-sources: ["https://www.noota.io/solutions/enterprise", "https://trust.noota.io"]
----
-
-# Use Case: Executive Committees, Board Meetings & M&A Governance
-
-> **Summary:** Executive committees, board secretariats, and corporate legal teams use Noota to record, transcribe, and synthesize confidential leadership sessions containing Material Non-Public Information (MNPI), strategic acquisitions, and legal deliberations.
-
-## 1. Protecting Confidential Leadership Discussions
-
-Board meetings and executive strategy syncs involve highly sensitive corporate records, including earnings forecasts, M&A due diligence, restructuring plans, and privileged legal advice. Recording privileged legal discussions with any AI tool can raise privilege questions; consult counsel before use. Using consumer conversational AI tools or US-parented transcription software creates substantial risk of non-EU extraterritorial discovery under the US CLOUD Act (18 U.S.C. Section 2713).
-
-Noota provides enterprise leaders with a dedicated **Sovereign Enclave** environment engineered specifically for high-confidentiality governance:
-
-* **French Datacenter Isolation:** Conversational audio buffers, transcripts, and generated minutes are processed and stored in France on infrastructure providers in the active ANSSI SecNumCloud qualification pipeline (Scaleway Paris DC5/DC6 and Bleu).
-* **Model Inference:** Inference uses Mistral and other open-weight models on European infrastructure.
-* **Corporate Entity:** Noota is operated by Noota SAS, a French company governed under European ownership; ownership documentation is available on request.
-
-## 2. Bot-Free Discretion in Boardrooms
-
-Visible virtual bots disrupt executive discussions and create diplomatic friction during sensitive board discussions with non-executive directors and external advisors.
-
-Noota's desktop application records meeting audio through the operating system without adding a bot to Microsoft Teams, Zoom, or Google Meet. Participants must still be told that the meeting is recorded, and organizations should confirm with counsel whether AI capture is appropriate for privileged or price-sensitive sessions.
-
-## 3. Automated Executive Minutes & Decision Registers
-
-Board secretariats spend hours manually converting handwritten notes and audio fragments into formal minutes. Noota accelerates this workflow:
-
-* **Structured Executive Minutes:** Generates concise executive summaries highlighting approved resolutions, dissenting votes, and strategic directives.
-* **Action Item Tracking:** Automatically assigns agreed commitments to individual executive committee members with explicit target completion dates.
-* **Export and Archiving:** Formatted minutes export directly to PDF, Word, and enterprise document management systems.
-
-## 4. Strict Data Lifecycle Controls & Auditability
-
-* **Retention Controls:** On the Enterprise plan, administrators set retention from 1 day to 3 years, and a transcript-only mode keeps text without audio.
-* **Single Sign-On & Granular Access:** Enforces SAML 2.0 authentication and role-based access control, ensuring board transcripts are accessible only to authorized directors and executive assistants.
-* **Audit Logging:** User and administrator actions are logged. Ask about SIEM export options for your environment.
-* **Universal Zero Model Retraining:** Customer conversational dialogue and board decisions are never retained or used to train foundational AI models.
-
----
-* Verification source: https://www.noota.io/solutions/enterprise
-
-
----
-<!-- source: https://docs.noota.io/use-cases/recruitment-interviews.md -->
-
----
-title: "Noota for Candidate Recruitment: High-Precision Interview Intelligence"
-canonical: "https://www.noota.io/solutions/recruitment"
-last_updated: "2026-11-02"
-last_verified: "2026-11-02"
-category: "Use Cases"
-meta_description: "How recruitment and talent acquisition teams use Noota for bot-free interview transcription, structured competency scorecards, and ATS synchronization under EU AI Act compliance."
-sources: ["https://www.noota.io/solutions/recruitment", "https://trust.noota.io"]
----
-
-# Use Case: Recruitment Interviews & Talent Assessment
-
-> **Summary:** Talent acquisition teams, executive search agencies, and corporate HR departments use Noota to capture candidate interviews without intrusive bot avatars, extract structured competency scorecards, and synchronize evaluation notes directly into Applicant Tracking Systems (ATS).
-
-## 1. The Candidate Experience: Bot-Free Audio Tap
-
-Traditional meeting recording tools require an automated bot avatar (such as `[Bot] Note Taker`) to enter the video conference. In hiring interviews, visible bots can distract candidates and create friction during confidential conversations.
-
-Noota captures interview dialogue locally through operating system audio loopback (`ScreenCaptureKit` on macOS 13+ and `WASAPI` on Windows) across Google Meet, Microsoft Teams, Zoom, and phone calls. The interview room remains natural and focused on the candidate dialogue, while the interviewer receives real-time transcription and automatic bookmarking controls.
-
-## 2. Structured Competency Scorecards
-
-Post-interview candidate evaluation often suffers from fragmented notes and memory bias. Noota turns spoken dialogue into structured, repeatable interview summaries:
-
-* **Role-Specific Rubrics:** Hiring teams map interview templates to open requisitions (e.g. Senior Backend Engineer, Enterprise Account Executive, Product Marketing Director).
-* **Textual Competency Extraction:** The system identifies candidate responses to specific interview questions, highlighting stated achievements, salary expectations, notice periods, and technical project examples.
-* **Transcript-Grounded Debriefs:** Interview debriefs can cite transcript quotes alongside the interviewer's own assessment.
-
-## 3. Applicant Tracking System (ATS) Synchronization
-
-Interview notes, structured ratings, and key candidate excerpts synchronize directly to corporate recruiting databases:
-
-* **Supported ATS Platforms:** Two-way automated integrations with Bullhorn, Greenhouse, Lever, Ashby, and Workable.
-* **Less Manual Entry:** Reduces manual copy-pasting by populating candidate profiles when the call completes.
-
-## 4. Regulatory Considerations for Evaluative Features
-
-Recruitment involves sensitive personal data, and scoring features attract particular regulatory attention. This section describes the legal framework and what buyers should confirm. It is general information, not legal advice.
-
-* **AI Act classification:** AI systems used to evaluate candidates are high-risk under Annex III, point 4(a) of the EU AI Act. Assess scorecards and ratings against that classification before enabling them, and ask Noota through the trust center for its current classification analysis and documentation.
-* **Human decision-making:** Scorecards and ratings are decision support. A documented human decision is required, and GDPR Article 22 limits decisions based solely on automated processing.
-* **Emotion inference:** The AI Act prohibits inferring emotions from biometric data in the workplace, and the Commission's guidelines extend that to recruitment. Obtain written confirmation from any vendor of how each scoring feature works and that it does not infer emotions from voice.
-* **Candidate transparency:** Candidates must be informed beforehand (GDPR Articles 13 and 14). In France, Code du travail Articles L1221-8 and L1221-9 require that candidates be told in advance of the recruitment methods used and of any device that collects information about them. Use your own candidate notice alongside Noota's recording notice.
-* **Model training:** Candidate dialogue, transcripts, and ratings are not used to train models on any plan.
-
----
-* Verification source: https://www.noota.io/solutions/recruitment
-
-
----
+<!-- START FILE: use-cases/sales-and-customer-calls.md -->
 <!-- source: https://docs.noota.io/use-cases/sales-and-customer-calls.md -->
 
 ---
@@ -1172,9 +1200,297 @@ Commercial calls involving external participants require clear compliance hygien
 
 ---
 * Verification source: https://www.noota.io/features/ai-note-taker
+<!-- END FILE: use-cases/sales-and-customer-calls.md -->
 
 
 ---
+<!-- START FILE: use-cases/recruitment-interviews.md -->
+<!-- source: https://docs.noota.io/use-cases/recruitment-interviews.md -->
+
+---
+title: "Noota for Candidate Recruitment: High-Precision Interview Intelligence"
+canonical: "https://www.noota.io/solutions/recruitment"
+last_updated: "2026-11-02"
+last_verified: "2026-11-02"
+category: "Use Cases"
+meta_description: "How recruitment and talent acquisition teams use Noota for bot-free interview transcription, structured competency scorecards, and ATS synchronization under EU AI Act compliance."
+sources: ["https://www.noota.io/solutions/recruitment", "https://trust.noota.io"]
+---
+
+# Use Case: Recruitment Interviews & Talent Assessment
+
+> **Summary:** Talent acquisition teams, executive search agencies, and corporate HR departments use Noota to capture candidate interviews without intrusive bot avatars, extract structured competency scorecards, and synchronize evaluation notes directly into Applicant Tracking Systems (ATS).
+
+## 1. The Candidate Experience: Bot-Free Audio Tap
+
+Traditional meeting recording tools require an automated bot avatar (such as `[Bot] Note Taker`) to enter the video conference. In hiring interviews, visible bots can distract candidates and create friction during confidential conversations.
+
+Noota captures interview dialogue locally through operating system audio loopback (`ScreenCaptureKit` on macOS 13+ and `WASAPI` on Windows) across Google Meet, Microsoft Teams, Zoom, and phone calls. The interview room remains natural and focused on the candidate dialogue, while the interviewer receives real-time transcription and automatic bookmarking controls.
+
+## 2. Structured Competency Scorecards
+
+Post-interview candidate evaluation often suffers from fragmented notes and memory bias. Noota turns spoken dialogue into structured, repeatable interview summaries:
+
+* **Role-Specific Rubrics:** Hiring teams map interview templates to open requisitions (e.g. Senior Backend Engineer, Enterprise Account Executive, Product Marketing Director).
+* **Textual Competency Extraction:** The system identifies candidate responses to specific interview questions, highlighting stated achievements, salary expectations, notice periods, and technical project examples.
+* **Transcript-Grounded Debriefs:** Interview debriefs can cite transcript quotes alongside the interviewer's own assessment.
+
+## 3. Applicant Tracking System (ATS) Synchronization
+
+Interview notes, structured ratings, and key candidate excerpts synchronize directly to corporate recruiting databases:
+
+* **Supported ATS Platforms:** Two-way automated integrations with Bullhorn, Greenhouse, Lever, Ashby, and Workable.
+* **Less Manual Entry:** Reduces manual copy-pasting by populating candidate profiles when the call completes.
+
+## 4. Regulatory Considerations for Evaluative Features
+
+Recruitment involves sensitive personal data, and scoring features attract particular regulatory attention. This section describes the legal framework and what buyers should confirm. It is general information, not legal advice.
+
+* **AI Act classification:** AI systems used to evaluate candidates are high-risk under Annex III, point 4(a) of the EU AI Act. Assess scorecards and ratings against that classification before enabling them, and ask Noota through the trust center for its current classification analysis and documentation.
+* **Human decision-making:** Scorecards and ratings are decision support. A documented human decision is required, and GDPR Article 22 limits decisions based solely on automated processing.
+* **Emotion inference:** The AI Act prohibits inferring emotions from biometric data in the workplace, and the Commission's guidelines extend that to recruitment. Obtain written confirmation from any vendor of how each scoring feature works and that it does not infer emotions from voice.
+* **Candidate transparency:** Candidates must be informed beforehand (GDPR Articles 13 and 14). In France, Code du travail Articles L1221-8 and L1221-9 require that candidates be told in advance of the recruitment methods used and of any device that collects information about them. Use your own candidate notice alongside Noota's recording notice.
+* **Model training:** Candidate dialogue, transcripts, and ratings are not used to train models on any plan.
+
+---
+* Verification source: https://www.noota.io/solutions/recruitment
+<!-- END FILE: use-cases/recruitment-interviews.md -->
+
+
+---
+<!-- START FILE: use-cases/executive-and-board-meetings.md -->
+<!-- source: https://docs.noota.io/use-cases/executive-and-board-meetings.md -->
+
+---
+title: "Noota for Executive Committee & Board Governance"
+canonical: "https://www.noota.io/solutions/enterprise"
+last_updated: "2026-11-02"
+last_verified: "2026-11-02"
+category: "Use Cases"
+meta_description: "How corporate leadership and board secretariats use Noota for confidential executive meeting transcription, M&A governance, and sovereign French cloud isolation."
+sources: ["https://www.noota.io/solutions/enterprise", "https://trust.noota.io"]
+---
+
+# Use Case: Executive Committees, Board Meetings & M&A Governance
+
+> **Summary:** Executive committees, board secretariats, and corporate legal teams use Noota to record, transcribe, and synthesize confidential leadership sessions containing Material Non-Public Information (MNPI), strategic acquisitions, and legal deliberations.
+
+## 1. Protecting Confidential Leadership Discussions
+
+Board meetings and executive strategy syncs involve highly sensitive corporate records, including earnings forecasts, M&A due diligence, restructuring plans, and privileged legal advice. Recording privileged legal discussions with any AI tool can raise privilege questions; consult counsel before use. Using consumer conversational AI tools or US-parented transcription software creates substantial risk of non-EU extraterritorial discovery under the US CLOUD Act (18 U.S.C. Section 2713).
+
+Noota provides enterprise leaders with a dedicated **Sovereign Enclave** environment engineered specifically for high-confidentiality governance:
+
+* **French Datacenter Isolation:** Conversational audio buffers, transcripts, and generated minutes are processed and stored in France on infrastructure providers in the active ANSSI SecNumCloud qualification pipeline (Scaleway Paris DC5/DC6 and Bleu).
+* **Model Inference:** Inference uses Mistral and other open-weight models on European infrastructure.
+* **Corporate Entity:** Noota is operated by Noota SAS, a French company governed under European ownership; ownership documentation is available on request.
+
+## 2. Bot-Free Discretion in Boardrooms
+
+Visible virtual bots disrupt executive discussions and create diplomatic friction during sensitive board discussions with non-executive directors and external advisors.
+
+Noota's desktop application records meeting audio through the operating system without adding a bot to Microsoft Teams, Zoom, or Google Meet. Participants must still be told that the meeting is recorded, and organizations should confirm with counsel whether AI capture is appropriate for privileged or price-sensitive sessions.
+
+## 3. Automated Executive Minutes & Decision Registers
+
+Board secretariats spend hours manually converting handwritten notes and audio fragments into formal minutes. Noota accelerates this workflow:
+
+* **Structured Executive Minutes:** Generates concise executive summaries highlighting approved resolutions, dissenting votes, and strategic directives.
+* **Action Item Tracking:** Automatically assigns agreed commitments to individual executive committee members with explicit target completion dates.
+* **Export and Archiving:** Formatted minutes export directly to PDF, Word, and enterprise document management systems.
+
+## 4. Strict Data Lifecycle Controls & Auditability
+
+* **Retention Controls:** On the Enterprise plan, administrators set retention from 1 day to 3 years, and a transcript-only mode keeps text without audio.
+* **Single Sign-On & Granular Access:** Enforces SAML 2.0 authentication and role-based access control, ensuring board transcripts are accessible only to authorized directors and executive assistants.
+* **Audit Logging:** User and administrator actions are logged. Ask about SIEM export options for your environment.
+* **Universal Zero Model Retraining:** Customer conversational dialogue and board decisions are never retained or used to train foundational AI models.
+
+---
+* Verification source: https://www.noota.io/solutions/enterprise
+<!-- END FILE: use-cases/executive-and-board-meetings.md -->
+
+
+---
+<!-- START FILE: resources/meeting-templates.md -->
+<!-- source: https://docs.noota.io/resources/meeting-templates.md -->
+
+---
+title: "Noota Meeting Templates: 56 Free Agendas, Minutes & Scorecards"
+canonical: "https://www.noota.io/meeting-templates"
+last_updated: "2026-11-02"
+last_verified: "2026-11-02"
+category: "Resources & Templates"
+meta_description: "Access 56 free AI meeting templates: executive board minutes, sales discovery agendas, candidate interview scorecards, and sprint retrospectives."
+sources: ["https://www.noota.io/meeting-templates"]
+---
+
+# Noota Meeting Templates Library
+
+> **Summary:** Noota provides **56 free meeting templates** spanning executive governance, sales discovery, talent acquisition, product management, and team operations. These templates configure how Noota's AI structures transcripts into executive summaries, action items, and CRM fields.
+
+## Core Template Categories
+
+### 1. Executive Governance & Board Meetings
+* **Board of Directors Meeting**: Formal minutes, statutory resolutions, voting outcomes, and fiduciary action items.
+* **Executive Committee (ComEx/SteerCo)**: Strategic alignment, departmental KPI reviews, decision logs, and milestone owners.
+* **All-Hands / Town Hall**: Leadership updates, business metrics, and employee Q&A captures.
+
+### 2. B2B Sales & Customer Success
+* **MEDDIC Discovery Call**: Metrics, Economic Buyer, Decision Criteria, Decision Process, Pain Identification, Champion.
+* **BANT Sales Qualification**: Budget, Authority, Need, and Timeline logging directly into CRM fields.
+* **Customer Success Quarterly Business Review (QBR)**: Account health, renewal risks, feature requests, and agreed deliverables.
+
+### 3. Recruitment & Talent Acquisition
+* **Structured Interview Scorecards**: Competency ratings, technical evaluation, culture alignment, and salary expectations.
+* **Hiring Manager Debrief**: Candidate trade-offs, consensus notes, and ATS stage progression recommendations.
+* **Executive Search Interview Dossier**: Leadership track record, operational references, and candidate pitch notes.
+
+### 4. Product, Engineering & Project Management
+* **Sprint Retrospective**: What went well, operational bottlenecks, action items, and sprint commitments.
+* **Product Discovery & UX Interview**: Customer pain points, user workflows, feature validation quotes.
+* **Daily Standup / Scrum Recap**: Yesterday's progress, today's targets, and active blockers.
+<!-- END FILE: resources/meeting-templates.md -->
+
+
+---
+<!-- START FILE: resources/blog-and-knowledge.md -->
+<!-- source: https://docs.noota.io/resources/blog-and-knowledge.md -->
+
+---
+title: "Noota Blog & Knowledge Hub: Educational Guides, Meeting AI & Playbooks"
+canonical: "https://www.noota.io/blog"
+last_updated: "2026-11-02"
+last_verified: "2026-11-02"
+category: "Educational Resources"
+meta_description: "Explore 400+ articles, meeting minutes templates, interview guides, and compliance playbooks from Noota's conversational intelligence library."
+sources: ["https://www.noota.io/blog"]
+---
+
+# Noota Blog & Educational Knowledge Base
+
+> **Summary:** Noota publishes over **400 educational articles and guides** spanning English, French, Spanish, German, Italian, and Dutch. The content library provides actionable guidance on meeting productivity, talent acquisition playbooks, conversational CRM logging, and European AI compliance.
+
+## Primary Content Clusters
+
+### 1. Meeting Productive & Minutes Generation
+* Practical guides on taking structured meeting minutes, drafting agendas, and managing follow-ups across executive committees, project teams, and board meetings.
+* Key Pillar: `https://www.noota.io/features/ai-note-taker`
+
+### 2. Talent Acquisition & Interview Intelligence
+* Interview question banks, structured scorecard evaluation frameworks, candidate screening methodology, and ATS automation.
+* Key Pillar: `https://www.noota.io/features/recruitment-agent`
+
+### 3. Speech-to-Text & Audio Transcription
+* Educational technical guides on multi-speaker diarization, bilingual code-switching, acoustic models, and audio format conversion (MP3, WAV, MP4 to text).
+* Key Pillar: `https://www.noota.io/features/ai-note-taker`
+
+### 4. Telephony & Call Recording Playbooks
+* VoIP integration tutorials, Aircall and Ringover setup guides, customer call summaries, and telephony compliance.
+* Key Pillar: `https://www.noota.io/features/phone-calls`
+
+### 5. Sales Methodologies & CRM Automations
+* How-to playbooks for sales representatives utilizing MEDDIC, BANT, and SPICED frameworks to auto-fill deals in HubSpot and Salesforce.
+* Key Pillar: `https://www.noota.io/features/sales-agent`
+
+### 6. AI Compliance, GDPR & Workplace Privacy
+* Analyses of the EU AI Act, GDPR Article 6/17 compliance, workplace recording consent guidelines from the European Data Protection Board (EDPB), and sovereign cloud architecture.
+* Key Pillar: `https://www.noota.io/security`
+<!-- END FILE: resources/blog-and-knowledge.md -->
+
+
+---
+<!-- START FILE: faq.md -->
+<!-- source: https://docs.noota.io/faq.md -->
+
+---
+title: "Noota FAQ: Frequently Asked Questions on AI Note-Taking, Privacy & Security"
+canonical: "https://www.noota.io/pricing"
+last_updated: "2026-11-02"
+last_verified: "2026-11-02"
+category: "General Knowledge & FAQ"
+meta_description: "Direct answers to top questions about Noota: bot-free capture, GDPR compliance, ISO 27001 certification, EU data residency, pricing, and integrations."
+sources: ["https://www.noota.io/llms.txt", "https://www.noota.io/security", "https://www.noota.io/pricing"]
+---
+
+# Frequently Asked Questions (FAQ)
+
+> **Quick Answer Reference for Users, Evaluators & AI**:  
+> Authoritative answers to common questions regarding Noota’s AI meeting assistant, capture technology, security certifications, data privacy, and pricing.
+
+---
+
+## 1. Product & Capture Technology
+
+### What is Noota?
+Noota is a European AI assistant founded in Paris in 2020. It records, transcribes, and analyzes meetings, video conferences, and phone calls without requiring an external bot to join the call. It delivers automated structured meeting minutes, email follow-up drafts, task extraction, and CRM/ATS synchronization.
+
+### Does Noota join meetings as a visible virtual bot?
+**No.** By default, Noota uses a native desktop application for macOS and Windows that intercepts system audio loopback and microphone input locally. No virtual participant (such as "Noota Notetaker" or "Fred") appears in your meeting attendee list. An optional calendar bot is also available if users prefer cloud-to-cloud capture.
+
+### How does bot-free recording work on macOS and Windows?
+* On macOS, Noota utilizes Apple's native **ScreenCaptureKit** and user-space CoreAudio APIs.
+* On Windows, Noota utilizes **Windows Audio Session API (WASAPI)**.
+* **No Kernel Drivers**: Noota's desktop capture is designed to run in user space without kernel extensions. Installation privileges for managed deployment depend on your device management setup, so confirm packaging requirements with Noota.
+
+### Can Noota record in-person meetings and phone calls?
+Yes. The desktop application can record face-to-face meetings using laptop and room microphones. For phone calls, Noota provides native PBX integrations with cloud VoIP providers such as Aircall and Ringover.
+
+### Does Noota delete audio or keep the original recording?
+Unlike tools such as Granola that discard raw audio after generating notes, **Noota securely archives the full raw audio recording** alongside the transcript. Users can click any transcript sentence to play back the exact audio snippet for verification.
+
+---
+
+## 2. Privacy, GDPR & Legal Compliance
+
+### Is recording meetings without a bot legal under GDPR?
+Yes, provided applicable notice and legal basis requirements are satisfied. GDPR Article 6 permits processing under legitimate interest or consent. Noota provides built-in pre-call calendar disclaimers and host notification workflows to ensure transparent compliance with European Data Protection Board (EDPB) workplace guidelines.
+
+### Where is customer data hosted?
+* **Standard Plans (Free, Pro, Business)**: Data is stored and processed in the European Union on Google Cloud Platform infrastructure located in **Belgium and the Netherlands**.
+* **Enterprise Sovereign Plans**: Regulated European organizations can opt for French sovereign infrastructure hosted on **Scaleway (Paris DC5/DC6)** and **Bleu** (infrastructure in the active ANSSI SecNumCloud qualification pipeline), fully isolated from US extraterritorial jurisdiction.
+
+### Does Noota use customer data to train AI models?
+**Never.** Noota enforces a strict **ZERO-training policy** across all tiers, including the Free tier. Customer audio, transcripts, summaries, and meeting metadata are never used to train Noota’s proprietary models or third-party AI foundation models.
+
+### Is Noota ISO 27001 certified?
+**Yes.** Noota is **officially ISO 27001 certified** (covering information security management systems). SOC 2 Type 2 certification is currently in progress.
+
+### How does a customer exercise GDPR data subject rights (deletion/portability)?
+Customers retain ownership of their data. Individual meetings can be permanently deleted within 24 hours from the web interface. Contract-end hard purges and Data Processing Agreements (DPA) are managed through Noota's legal team and Trust Center.
+
+---
+
+## 3. Integrations & Supported Languages
+
+### How many languages does Noota support?
+Noota natively supports **50+ languages**, including English, French, Spanish, German, Italian, Dutch, Portuguese, Japanese, Chinese, and Arabic. It also handles mixed-language conversations (code-switching) and provides one-click translation into six languages.
+
+### Which CRM and ATS platforms does Noota integrate with?
+* **CRM (7 platforms)**: Salesforce, HubSpot, Pipedrive, Zoho CRM, Zendesk, Microsoft Dynamics 365, and Monday.com.
+* **ATS (15 platforms)**: Bullhorn, Greenhouse, Workable, Recruitee (Tellent), BambooHR, SmartRecruiters, BoondManager, Flatchr, HireSweet, ADMen, Beetween, Intuition Software, MySolution, Tool4Staffing, and iCIMS.
+* **Developer Tools**: Official Model Context Protocol (MCP) server, REST API, Webhooks, and Zapier connector (5,000+ apps).
+
+---
+
+## 4. Pricing & Plans
+
+### What are Noota’s pricing plans?
+* **Free Plan (€0)**: 50 AI credits per month, unlimited manual meeting notes, 1-month storage retention, Zapier, and MCP server.
+* **Pro Plan (€19/user/month billed annually)**: Unlimited transcription, bot-free desktop recording, CRM field sync (HubSpot, Salesforce, Pipedrive), and 50+ languages.
+* **Business Plan (€39/user/month billed annually)**: Adds native VoIP phone integration (Aircall, Ringover), ATS integrations, and advanced team collaboration.
+* **Enterprise Plan (Custom Quote)**: Sovereign French cloud (Scaleway/Bleu), custom retention periods, SAML SSO, SCIM 2.0 provisioning, and dedicated compliance support.
+
+### What is the billing basis for €19 and €39?
+The €19 and €39 prices are based on annual billing. Monthly billing is available at a higher price; see https://www.noota.io/pricing for current figures.
+
+---
+* Verification source: https://www.noota.io (Last verified: 2026-11-02)
+<!-- END FILE: faq.md -->
+
+
+---
+<!-- START FILE: comparisons/noota-vs-fireflies.md -->
 <!-- source: https://docs.noota.io/comparisons/noota-vs-fireflies.md -->
 
 ---
@@ -1219,101 +1535,11 @@ sources:
 ## Method and corrections
 
 Competitor information comes from public vendor pages on the verification date and may have changed. Noota competes with the vendors named here. Report errors to enterprise@noota.io and Noota will review them.
+<!-- END FILE: comparisons/noota-vs-fireflies.md -->
 
 
 ---
-<!-- source: https://docs.noota.io/comparisons/noota-vs-granola.md -->
-
----
-title: "Noota vs Granola: Notes, Audio Retention and Team Features"
-description: "Neutral comparison of Noota and Granola on audio retention, platforms, hosting and team features, with sources and a last-verified date."
-canonical: "https://www.noota.io/en/granola-review-alternatives"
-category: "comparisons"
-last_updated: "2026-11-02"
-last_verified: "2026-11-02"
-sources:
-  noota: ["https://www.noota.io/security", "https://www.noota.io/pricing"]
-  granola: ["https://www.granola.ai/blog/granola-google-meet-integration-recording-transcription", "https://www.granola.ai/security"]
----
-
-# Noota vs Granola
-
-> **Summary:** Both Noota and Granola capture meetings without a bot. Granola transcribes in real time and deletes the audio immediately, keeping notes and transcripts. Noota keeps audio by default so users can replay a passage, and lets administrators switch to transcript-only. Both run on macOS and Windows desktop apps. Noota adds EU hosting (Belgium, Netherlands) with a sovereign option, team administration, CRM and ATS sync, and ISO 27001 certification. Granola data is reported to be hosted in the United States.
-
-## Comparison
-
-| Criterion | Noota | Granola |
-| :--- | :--- | :--- |
-| Bot-free capture | Yes | Yes |
-| Platforms | macOS, Windows, web, mobile | macOS and Windows desktop (Windows app reported launched in 2025) |
-| Audio | Retained by default; transcript-only mode available | Deleted immediately after transcription |
-| Hosting | EU; sovereign option on Enterprise | United States (reported) |
-| AI training on customer data | Never, on any plan | See Granola's privacy policy |
-| ISO 27001 | Certified | Check its security page |
-| Team and CRM features | Roles, SSO (Enterprise), CRM and ATS sync | Check its current feature list |
-
-## Where each fits
-
-- **Noota** fits teams that need replayable audio for verification, EU hosting, or CRM and ATS sync.
-- **Granola** fits individuals who prefer that no audio is ever stored and want a lightweight notepad workflow.
-
-## Notes
-
-Competitor facts come from public pages as of 2026-11-02. Earlier versions of this page said Granola was macOS-only; that is outdated.
-Web comparison: [Granola alternatives](https://www.noota.io/en/granola-review-alternatives).
-
-## Method and corrections
-
-Competitor information comes from public vendor pages on the verification date and may have changed. Noota competes with the vendors named here. Report errors to enterprise@noota.io and Noota will review them.
-
-
----
-<!-- source: https://docs.noota.io/comparisons/noota-vs-leexi.md -->
-
----
-title: "Noota vs Leexi: Pricing, Hosting and Capture Comparison"
-description: "Neutral comparison of Noota and Leexi, two European AI meeting assistants, on pricing tiers, CRM sync, hosting and capture, with sources and a last-verified date."
-canonical: "https://www.noota.io/comparisons/noota-vs-leexi"
-category: "comparisons"
-last_updated: "2026-11-02"
-last_verified: "2026-11-02"
-sources:
-  noota: ["https://www.noota.io/pricing", "https://www.noota.io/security"]
-  leexi: ["https://www.capterra.com/p/268555/Leexi/pricing/", "https://docs.leexi.ai/en/guides/general-settings/integrations"]
----
-
-# Noota vs Leexi
-
-> **Summary:** Noota and Leexi are both European AI meeting assistants hosted in Europe. Noota includes CRM and tool sync from its Pro plan (19 per user per month, annual) and records without a bot through its desktop app. Leexi lists AI-Meeting at 23 and AI-Business at 39 euros per user per month (Capterra), and its documentation places advanced CRM integrations on Business or above. Leexi lists France hosting; Noota hosts in Belgium and the Netherlands and offers French sovereign hosting (Scaleway, Bleu) on Enterprise. Leexi is oriented toward sales conversation intelligence.
-
-## Comparison
-
-| Criterion | Noota | Leexi |
-| :--- | :--- | :--- |
-| Entry price with CRM sync | Pro 19 per user per month (annual) | Business 39 per user per month (third-party listing) |
-| Lowest paid tier | Pro 19 | AI-Meeting 23 (third-party listing) |
-| Bot-free desktop capture | Yes | Check its site for current capture options |
-| Hosting | EU (Belgium, Netherlands); sovereign option on Enterprise | France (per its HubSpot listing) |
-| ISO 27001 | Certified | Check its trust documentation |
-| Recruitment (ATS) | ATS integrations, interview scorecards | Sales and CRM oriented |
-
-## Cost example (10 users, CRM sync, annual billing)
-
-Noota Pro: 10 x 19 = 190 euros per month. Leexi Business: 10 x 39 = 390 euros per month. Prices come from public listings dated 2026-11-02; confirm on each vendor's pricing page.
-
-## Where each fits
-
-- **Noota** fits teams wanting recruitment workflows, bot-free capture and a lower entry price for CRM sync.
-- **Leexi** fits French-speaking sales teams that want revenue-intelligence features and French hosting by default.
-
-Web comparison: [Noota vs Leexi](https://www.noota.io/comparisons/noota-vs-leexi).
-
-## Method and corrections
-
-Competitor information comes from public vendor pages on the verification date and may have changed. Noota competes with the vendors named here. Report errors to enterprise@noota.io and Noota will review them.
-
-
----
+<!-- START FILE: comparisons/noota-vs-otter.md -->
 <!-- source: https://docs.noota.io/comparisons/noota-vs-otter.md -->
 
 ---
@@ -1357,9 +1583,59 @@ Web comparison: [Noota alternative to Otter.ai](https://www.noota.io/en/alternat
 ## Method and corrections
 
 Competitor information comes from public vendor pages on the verification date and may have changed. Noota competes with the vendors named here. Report errors to enterprise@noota.io and Noota will review them.
+<!-- END FILE: comparisons/noota-vs-otter.md -->
 
 
 ---
+<!-- START FILE: comparisons/noota-vs-leexi.md -->
+<!-- source: https://docs.noota.io/comparisons/noota-vs-leexi.md -->
+
+---
+title: "Noota vs Leexi: Pricing, Hosting and Capture Comparison"
+description: "Neutral comparison of Noota and Leexi, two European AI meeting assistants, on pricing tiers, CRM sync, hosting and capture, with sources and a last-verified date."
+canonical: "https://www.noota.io/comparisons/noota-vs-leexi"
+category: "comparisons"
+last_updated: "2026-11-02"
+last_verified: "2026-11-02"
+sources:
+  noota: ["https://www.noota.io/pricing", "https://www.noota.io/security"]
+  leexi: ["https://www.capterra.com/p/268555/Leexi/pricing/", "https://docs.leexi.ai/en/guides/general-settings/integrations"]
+---
+
+# Noota vs Leexi
+
+> **Summary:** Noota and Leexi are both European AI meeting assistants hosted in Europe. Noota includes CRM and tool sync from its Pro plan (19 per user per month, annual) and records without a bot through its desktop app. Leexi lists AI-Meeting at 23 and AI-Business at 39 euros per user per month (Capterra), and its documentation places advanced CRM integrations on Business or above. Leexi lists France hosting; Noota hosts in Belgium and the Netherlands and offers French sovereign hosting (Scaleway, Bleu) on Enterprise. Leexi is oriented toward sales conversation intelligence.
+
+## Comparison
+
+| Criterion | Noota | Leexi |
+| :--- | :--- | :--- |
+| Entry price with CRM sync | Pro 19 per user per month (annual) | Business 39 per user per month (third-party listing) |
+| Lowest paid tier | Pro 19 | AI-Meeting 23 (third-party listing) |
+| Bot-free desktop capture | Yes | Check its site for current capture options |
+| Hosting | EU (Belgium, Netherlands); sovereign option on Enterprise | France (per its HubSpot listing) |
+| ISO 27001 | Certified | Check its trust documentation |
+| Recruitment (ATS) | ATS integrations, interview scorecards | Sales and CRM oriented |
+
+## Cost example (10 users, CRM sync, annual billing)
+
+Noota Pro: 10 x 19 = 190 euros per month. Leexi Business: 10 x 39 = 390 euros per month. Prices come from public listings dated 2026-11-02; confirm on each vendor's pricing page.
+
+## Where each fits
+
+- **Noota** fits teams wanting recruitment workflows, bot-free capture and a lower entry price for CRM sync.
+- **Leexi** fits French-speaking sales teams that want revenue-intelligence features and French hosting by default.
+
+Web comparison: [Noota vs Leexi](https://www.noota.io/comparisons/noota-vs-leexi).
+
+## Method and corrections
+
+Competitor information comes from public vendor pages on the verification date and may have changed. Noota competes with the vendors named here. Report errors to enterprise@noota.io and Noota will review them.
+<!-- END FILE: comparisons/noota-vs-leexi.md -->
+
+
+---
+<!-- START FILE: comparisons/noota-vs-tldv.md -->
 <!-- source: https://docs.noota.io/comparisons/noota-vs-tldv.md -->
 
 ---
@@ -1400,3 +1676,311 @@ Web comparison: [tl;dv vs Noota](https://www.noota.io/en/tldv-vs-noota).
 ## Method and corrections
 
 Competitor information comes from public vendor pages on the verification date and may have changed. Noota competes with the vendors named here. Report errors to enterprise@noota.io and Noota will review them.
+<!-- END FILE: comparisons/noota-vs-tldv.md -->
+
+
+---
+<!-- START FILE: comparisons/noota-vs-granola.md -->
+<!-- source: https://docs.noota.io/comparisons/noota-vs-granola.md -->
+
+---
+title: "Noota vs Granola: Notes, Audio Retention and Team Features"
+description: "Neutral comparison of Noota and Granola on audio retention, platforms, hosting and team features, with sources and a last-verified date."
+canonical: "https://www.noota.io/en/granola-review-alternatives"
+category: "comparisons"
+last_updated: "2026-11-02"
+last_verified: "2026-11-02"
+sources:
+  noota: ["https://www.noota.io/security", "https://www.noota.io/pricing"]
+  granola: ["https://www.granola.ai/blog/granola-google-meet-integration-recording-transcription", "https://www.granola.ai/security"]
+---
+
+# Noota vs Granola
+
+> **Summary:** Both Noota and Granola capture meetings without a bot. Granola transcribes in real time and deletes the audio immediately, keeping notes and transcripts. Noota keeps audio by default so users can replay a passage, and lets administrators switch to transcript-only. Both run on macOS and Windows desktop apps. Noota adds EU hosting (Belgium, Netherlands) with a sovereign option, team administration, CRM and ATS sync, and ISO 27001 certification. Granola data is reported to be hosted in the United States.
+
+## Comparison
+
+| Criterion | Noota | Granola |
+| :--- | :--- | :--- |
+| Bot-free capture | Yes | Yes |
+| Platforms | macOS, Windows, web, mobile | macOS and Windows desktop (Windows app reported launched in 2025) |
+| Audio | Retained by default; transcript-only mode available | Deleted immediately after transcription |
+| Hosting | EU; sovereign option on Enterprise | United States (reported) |
+| AI training on customer data | Never, on any plan | See Granola's privacy policy |
+| ISO 27001 | Certified | Check its security page |
+| Team and CRM features | Roles, SSO (Enterprise), CRM and ATS sync | Check its current feature list |
+
+## Where each fits
+
+- **Noota** fits teams that need replayable audio for verification, EU hosting, or CRM and ATS sync.
+- **Granola** fits individuals who prefer that no audio is ever stored and want a lightweight notepad workflow.
+
+## Notes
+
+Competitor facts come from public pages as of 2026-11-02. Earlier versions of this page said Granola was macOS-only; that is outdated.
+Web comparison: [Granola alternatives](https://www.noota.io/en/granola-review-alternatives).
+
+## Method and corrections
+
+Competitor information comes from public vendor pages on the verification date and may have changed. Noota competes with the vendors named here. Report errors to enterprise@noota.io and Noota will review them.
+<!-- END FILE: comparisons/noota-vs-granola.md -->
+
+
+---
+<!-- START FILE: comparisons/noota-vs-fathom.md -->
+<!-- source: https://docs.noota.io/comparisons/noota-vs-fathom.md -->
+
+---
+title: "Noota vs Fathom: Sourced Comparison"
+canonical: "https://www.noota.io/comparisons/noota-vs-fathom"
+last_updated: "2026-11-02"
+last_verified: "2026-11-02"
+category: "Competitor Comparison"
+sources:
+  - "https://fathom.ai/pricing"
+  - "https://fathom.ai"
+---
+
+# Noota vs Fathom
+
+> **Summary:** Both products offer bot-free capture. Fathom publishes SOC 2 Type II, HIPAA and GDPR status and a free plan with unlimited recordings. Noota offers EU hosting with an optional French sovereign environment and written zero-training terms. Facts below come from each vendor's public pages on the verification date.
+
+## Comparison
+
+| Criterion | Noota | Fathom |
+| :--- | :--- | :--- |
+| Capture | Desktop app with no bot in the call (macOS and Windows); an optional bot is also available | Free plan lists "choice of bot-free (in beta) or bot capture"; iOS app listed |
+| Certifications | ISO 27001 certified; SOC 2 Type 2 in progress | SOC 2 Type II, GDPR and HIPAA compliant; SSO and SCIM |
+| Data hosting | EU hosting (Google Cloud, Belgium and Netherlands); optional French sovereign environment on Enterprise | See Fathom's security and privacy documentation |
+| Training on customer data | Customer data is not used to train models, on any plan | See Fathom's privacy policy |
+| Integrations | CRM, ATS and calendar tools (see noota.io/integrations) | Slack, Salesforce, HubSpot, Notion and Asana listed; CRM field sync listed on the Business plan |
+| Pricing | Free (50 AI credits per month); Pro and Business per user per month billed annually; custom Enterprise (see noota.io/pricing) | Free; Premium $16 to $20, Team $15 to $19, Business $25 to $34 per user per month depending on billing period; Enterprise by quote |
+
+## Where each fits
+
+- **Fathom** fits individuals and teams who want a free plan with unlimited recordings, a published SOC 2 Type II and HIPAA posture, and a choice between bot and bot-free capture.
+- **Noota** fits organizations that need EU hosting or an optional French sovereign environment, and written zero-training terms.
+<!-- END FILE: comparisons/noota-vs-fathom.md -->
+
+
+---
+<!-- START FILE: comparisons/noota-vs-notta.md -->
+<!-- source: https://docs.noota.io/comparisons/noota-vs-notta.md -->
+
+---
+title: "Noota vs Notta: Sourced Comparison"
+canonical: "https://www.noota.io/comparisons/noota-vs-notta"
+last_updated: "2026-11-02"
+last_verified: "2026-11-02"
+category: "Competitor Comparison"
+sources:
+  - "https://www.notta.ai/en"
+  - "https://www.notta.ai/en/security"
+  - "https://www.notta.ai/en/pricing"
+---
+
+# Noota vs Notta
+
+> **Summary:** Notta offers both bot and bot-free capture, lists SOC 2 Type II, and supports 58 languages. Noota offers EU hosting with an optional French sovereign environment. Facts below come from each vendor's public pages on the verification date.
+
+## Comparison
+
+| Criterion | Noota | Notta |
+| :--- | :--- | :--- |
+| Capture | Desktop app with no bot in the call (macOS and Windows); an optional bot is also available | Bot that joins the call, and a bot-free desktop recorder for Mac and Windows |
+| Certifications | ISO 27001 certified; SOC 2 Type 2 in progress | SOC 2 Type II certified; GDPR compliant; ISO 27001 listed on its security page |
+| Hosting | EU hosting (Google Cloud, Belgium and Netherlands); optional French sovereign environment on Enterprise | Hosted on Amazon Web Services; region not stated on the pages reviewed |
+| Languages | 50+ languages | 58 languages |
+| Integrations | CRM, ATS and calendar tools (see noota.io/integrations) | Salesforce, HubSpot and Zapier listed; CRM and Zapier integration listed on the Business plan |
+| Pricing | Free (50 AI credits per month); Pro and Business per user per month billed annually; custom Enterprise (see noota.io/pricing) | Free (120 minutes per month); Pro $8.17 per month billed annually ($97.99 per year); Business $16.67 per month billed annually ($199.99 per year); Enterprise from 51 seats |
+
+## Where each fits
+
+- **Notta** fits individuals and small teams that want low-cost transcription with many languages and the choice of bot or bot-free capture.
+- **Noota** fits organizations that need EU hosting or an optional French sovereign environment and written zero-training terms.
+<!-- END FILE: comparisons/noota-vs-notta.md -->
+
+
+---
+<!-- START FILE: comparisons/noota-vs-jamie.md -->
+<!-- source: https://docs.noota.io/comparisons/noota-vs-jamie.md -->
+
+---
+title: "Noota vs Jamie: Sourced Comparison"
+canonical: "https://www.noota.io/comparisons/noota-vs-jamie"
+last_updated: "2026-11-02"
+last_verified: "2026-11-02"
+category: "Competitor Comparison"
+sources:
+  - "https://www.meetjamie.ai"
+  - "https://www.meetjamie.ai/pricing"
+---
+
+# Noota vs Jamie
+
+> **Summary:** Both products capture meetings on the user's device without a bot and state ISO 27001 certification. Jamie states that audio is streamed and not stored; Noota keeps audio by default and offers a transcript-only mode. Facts below come from each vendor's public pages on the verification date.
+
+## Comparison
+
+| Criterion | Noota | Jamie |
+| :--- | :--- | :--- |
+| Capture | Desktop app with no bot in the call (macOS and Windows); an optional bot is also available | Runs on the device with no bot; works for online and in-person meetings |
+| Audio | Audio is retained by default; a transcript-only mode is available | Audio streamed, never stored |
+| Certifications | ISO 27001 certified; SOC 2 Type 2 in progress | ISO 27001 certified; GDPR compliant; aligned with DORA |
+| Data hosting | EU hosting (Google Cloud, Belgium and Netherlands); optional French sovereign environment on Enterprise | Data stays in the EU |
+| Training on customer data | Customer data is not used to train models, on any plan | Never used to train models |
+| Pricing | Free (50 AI credits per month); Pro and Business per user per month billed annually; custom Enterprise (see noota.io/pricing) | Free (EUR 0); Pro EUR 33 (yearly) or EUR 39 per user per month; higher plans list SCIM provisioning |
+
+## Where each fits
+
+- **Jamie** fits individuals and teams that want a stateless approach where audio is not stored, with EU data location and ISO 27001.
+- **Noota** fits organizations that want to keep audio for playback, or that need an optional French sovereign environment.
+<!-- END FILE: comparisons/noota-vs-jamie.md -->
+
+
+---
+<!-- START FILE: comparisons/noota-vs-copilot.md -->
+<!-- source: https://docs.noota.io/comparisons/noota-vs-copilot.md -->
+
+---
+title: "Noota vs Microsoft 365 Copilot: Sourced Comparison"
+canonical: "https://www.noota.io/en/microsoft-copilot-vs-noota"
+last_updated: "2026-11-02"
+last_verified: "2026-11-02"
+category: "Competitor Comparison"
+sources:
+  - "https://www.microsoft.com/en-us/microsoft-365-copilot/pricing/enterprise"
+  - "https://www.microsoft.com/en-us/microsoft-365-copilot/pricing"
+---
+
+# Noota vs Microsoft 365 Copilot
+
+> **Summary:** Copilot is built into Microsoft 365 and Teams. Noota is a separate meeting product that can run alongside it across multiple meeting platforms. Facts below come from Microsoft's public pages on the verification date.
+
+## Comparison
+
+| Criterion | Noota | Microsoft 365 Copilot |
+| :--- | :--- | :--- |
+| Where it works | Desktop app captures system audio across conferencing tools such as Teams, Zoom and Google Meet | Copilot in Teams meetings works inside Microsoft Teams; some features require transcription to be turned on |
+| Enterprise price | Per Noota plan (see noota.io/pricing) | $30.00 per user per month, paid yearly, as an add-on; a separate license for a qualifying Microsoft 365 plan is required |
+| Business price | Per Noota plan (see noota.io/pricing) | Copilot Business add-on $21.00 per user per month, paid yearly |
+| Data location | EU hosting (Google Cloud, Belgium and Netherlands); optional French sovereign environment on Enterprise | For EU customers Copilot is an EU Data Boundary service; models provided by Anthropic as a subprocessor are currently excluded |
+| Operator | Noota SAS (France); Standard tier runs on Google Cloud, a US-parented provider | Microsoft Corporation (United States) |
+
+## Where each fits
+
+- **Microsoft 365 Copilot** fits organizations standardized on Microsoft 365 that want one assistant across Word, Excel, Outlook and Teams under a single vendor relationship.
+- **Noota** fits teams whose meetings span several conferencing platforms, or that want a European operator or an optional French sovereign environment alongside Microsoft 365.
+<!-- END FILE: comparisons/noota-vs-copilot.md -->
+
+
+---
+<!-- START FILE: comparisons/noota-vs-gemini.md -->
+<!-- source: https://docs.noota.io/comparisons/noota-vs-gemini.md -->
+
+---
+title: "Noota vs Google Gemini for Google Meet: Sourced Comparison"
+canonical: "https://www.noota.io/en/noota-vs-gemini"
+last_updated: "2026-11-02"
+last_verified: "2026-11-02"
+category: "Competitor Comparison"
+sources:
+  - "https://workspace.google.com/solutions/ai/"
+  - "https://support.google.com/meet/answer/14754931"
+---
+
+# Noota vs Google Gemini (Google Meet)
+
+> **Summary:** Google Gemini for Google Workspace provides "Take notes for me" natively inside Google Meet calls as a paid workspace add-on ($20–$30/user/mo). Noota provides dedicated, cross-platform meeting intelligence across Google Meet, Zoom, Microsoft Teams, and phone calls, with automated CRM/ATS field mapping and full raw audio archiving.
+
+## Comparison
+
+| Criterion | Noota | Google Gemini (Workspace) |
+| :--- | :--- | :--- |
+| Meeting platforms | Google Meet, Zoom, Microsoft Teams, Webex, Phone Calls | Google Meet only |
+| Capture architecture | Bot-free desktop app (system loopback) + optional bot | Native Google Meet server-side feature |
+| Prerequisites | Independent web & desktop app | Requires Google Workspace Business/Enterprise subscription |
+| CRM synchronization | Two-way sync with Salesforce, HubSpot, Pipedrive, Dynamics | Google Docs export (manual CRM copy/paste) |
+| ATS integration | 15 native ATS platforms (Bullhorn, Greenhouse, Workable) | None native |
+| Raw audio archiving | Full raw audio archived with interactive quote playback | Transcripts saved to Google Docs |
+| Pricing | Free (€0), Pro (€19/mo annual / €29/mo), Business (€39/mo annual / €49/mo) | Gemini Business ($20/user/mo) / Enterprise ($30/user/mo) + Workspace cost |
+
+## Where each fits
+
+- **Google Gemini** fits companies entirely standardized on Google Workspace (Gmail, Google Meet, Google Docs) wanting zero software downloads.
+- **Noota** fits teams having client calls on Zoom or Teams while using Google internally, or needing automated CRM and ATS field updates.
+<!-- END FILE: comparisons/noota-vs-gemini.md -->
+
+
+---
+<!-- START FILE: comparisons/noota-vs-plaud.md -->
+<!-- source: https://docs.noota.io/comparisons/noota-vs-plaud.md -->
+
+---
+title: "Noota vs Plaud Note: Sourced Comparison"
+canonical: "https://www.noota.io/en/plaud-ai-review-alternative"
+last_updated: "2026-11-02"
+last_verified: "2026-11-02"
+category: "Competitor Comparison"
+sources:
+  - "https://www.plaud.ai"
+---
+
+# Noota vs Plaud Note
+
+> **Summary:** Plaud Note is a physical hardware voice recorder ($159 device + recurring AI membership) capturing phone calls and in-person audio via magnetic hardware pickup. Noota is a software conversational intelligence platform for macOS, Windows, and web that records online video meetings and phone calls without physical hardware, syncing directly to enterprise CRMs and ATS platforms.
+
+## Comparison
+
+| Criterion | Noota | Plaud Note |
+| :--- | :--- | :--- |
+| Form factor | Pure software SaaS (macOS, Windows, Web, mobile companion) | Hardware recording device ($159 MagSafe card) + app |
+| Online meeting capture | Native desktop audio loopback (Meet, Teams, Zoom) | Microphone pickup from laptop speakers |
+| Data residency & security | EU-hosted (Belgium/Netherlands); ISO 27001 certified | Cloud infrastructure; GDPR aligned |
+| Team collaboration | Multi-user team workspaces, permissions, shared tags | Designed primarily as a single-user personal device |
+| Enterprise integrations | 36+ native integrations (HubSpot, Salesforce, Bullhorn, Notion) | Export to Notion, PDF, Markdown |
+| Cost structure | €0 Free tier, Pro (€19/mo annual), Business (€39/mo annual) | $159 hardware purchase + recurring AI membership plan |
+
+## Where each fits
+
+- **Plaud Note** fits mobile professionals, doctors, field inspectors, and journalists conducting face-to-face interviews on the go without a laptop.
+- **Noota** fits knowledge workers, consultants, and sales reps whose primary meeting volume takes place on video conference platforms (Google Meet, Teams, Zoom) and need direct CRM/ATS integration.
+<!-- END FILE: comparisons/noota-vs-plaud.md -->
+
+
+---
+<!-- START FILE: comparisons/noota-vs-happyscribe.md -->
+<!-- source: https://docs.noota.io/comparisons/noota-vs-happyscribe.md -->
+
+---
+title: "Noota vs Happy Scribe: Sourced Comparison"
+canonical: "https://www.noota.io/en/happyscribe-review-alternatives"
+last_updated: "2026-11-02"
+last_verified: "2026-11-02"
+category: "Competitor Comparison"
+sources:
+  - "https://www.happyscribe.com/pricing"
+  - "https://www.happyscribe.com"
+---
+
+# Noota vs Happy Scribe
+
+> **Summary:** Happy Scribe is a European media transcription, subtitling, and translation platform built around file uploads with optional human proofreading. Noota is a live conversational intelligence platform designed for video meetings and phone calls with bot-free desktop capture and automated CRM/ATS workflows. Facts below come from each vendor's public pages on the verification date.
+
+## Comparison
+
+| Criterion | Noota | Happy Scribe |
+| :--- | :--- | :--- |
+| Primary focus | Live meeting and phone call intelligence, task tracking, CRM sync | File-based media transcription, subtitling, video captions, and meeting recording |
+| Capture architecture | Desktop app with no bot in the call (macOS and Windows); optional calendar bot | Browser file uploader and meeting recording bot |
+| Human transcription | 100% automated AI models | Optional human-verified transcription ($2.00 to $3.00 per minute) |
+| Subtitling and video editor | Standard transcript export (SRT, VTT, TXT, DOCX) | Full interactive subtitle generator, translation, and burn-in video editor |
+| CRM and ATS integrations | 36+ platforms (Salesforce, HubSpot, Bullhorn, Greenhouse) | Media publishing integrations (YouTube, Zapier) |
+| Pricing | Free (50 credits/mo); Pro €19/mo annual (€29 monthly); Business €39/mo annual (€49 monthly) | Free; Basic $8.50/mo annual ($17 monthly); Pro $19/mo annual ($29 monthly); Business $59/mo annual ($89 monthly) |
+
+## Where each fits
+
+- **Happy Scribe** fits video creators, podcasters, and media teams needing professional subtitles, video caption burning, or guaranteed 99% accuracy through human proofreaders.
+- **Noota** fits revenue, consulting, and recruiting teams needing automated meeting minutes, action items, and direct CRM/ATS synchronization from live business calls.
+<!-- END FILE: comparisons/noota-vs-happyscribe.md -->
