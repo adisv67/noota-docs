@@ -124,44 +124,6 @@ with open("llms-full.txt", "w", encoding="utf-8") as f:
     f.write(f_content)
 print(f"Generated llms-full.txt ({len(f_content.splitlines())} lines, {len(f_content)} bytes)")
 
-# 3. Generate vercel.json
-headers_config = []
-def make_header_entry(source, canonical=None):
-    hdrs = [
-        {"key": "Content-Type", "value": "text/markdown; charset=utf-8"},
-        {"key": "X-Robots-Tag", "value": "index, follow"},
-        {"key": "Access-Control-Allow-Origin", "value": "*"}
-    ]
-    if canonical:
-        hdrs.append({"key": "Link", "value": f'<{canonical}>; rel="canonical"'})
-    return {"source": source, "headers": hdrs}
+# 3. Deployment: GitHub Pages + Cloudflare Worker
 
-for h, it in S:
-    for p, _, _ in it:
-        if os.path.exists(p):
-            with open(p, "r", encoding="utf-8") as doc_file:
-                c = doc_file.read()
-                m = re.search(r'canonical:\s*["\']([^"\']+)["\']', c)
-                canonical = m.group(1) if m else "https://www.noota.io"
-            route_md = "/" + p
-            route_clean = "/" + p.replace(".md", "")
-            headers_config.append(make_header_entry(route_md, canonical))
-            if route_clean != route_md:
-                headers_config.append(make_header_entry(route_clean, canonical))
-
-headers_config.append(make_header_entry("/measurement-plan.md", "https://docs.noota.io/measurement-plan.md"))
-headers_config.append(make_header_entry("/measurement-plan", "https://docs.noota.io/measurement-plan.md"))
-headers_config.append(make_header_entry("/llms.txt", "https://www.noota.io/llms.txt"))
-headers_config.append(make_header_entry("/llms-full.txt", "https://www.noota.io/llms.txt"))
-
-vercel_json = {
-    "$schema": "https://openapi.vercel.sh/vercel.json",
-    "cleanUrls": True,
-    "headers": headers_config
-}
-
-with open("vercel.json", "w", encoding="utf-8") as f:
-    json.dump(vercel_json, f, indent=2)
-
-print(f"Generated vercel.json ({len(headers_config)} route configurations)")
 
