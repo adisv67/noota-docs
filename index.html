@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Noota Documentation & LLM Knowledge Hub</title>
+  <meta name="description" content="Official Markdown documentation and LLM index for Noota AI note taker and meeting intelligence.">
+  <style>
+    :root {
+      --bg: #0b0f19;
+      --card: #151d30;
+      --border: #222f4d;
+      --text: #e2e8f0;
+      --muted: #94a3b8;
+      --accent: #60a5fa;
+      --accent-hover: #93c5fd;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 2.5rem 1.5rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    header { margin-bottom: 2.5rem; border-bottom: 1px solid var(--border); padding-bottom: 1.5rem; }
+    h1 { font-size: 2rem; font-weight: 700; margin-bottom: 0.5rem; color: #ffffff; }
+    p.lead { color: var(--muted); font-size: 1.05rem; }
+    .badge {
+      display: inline-block;
+      background: rgba(96, 165, 250, 0.15);
+      color: var(--accent);
+      padding: 0.2rem 0.6rem;
+      border-radius: 6px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-top: 0.75rem;
+    }
+    .quick-links {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1rem;
+      margin: 2rem 0;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1.25rem;
+      transition: border-color 0.2s ease;
+    }
+    .card:hover { border-color: var(--accent); }
+    .card h3 { font-size: 1.1rem; margin-bottom: 0.35rem; color: #ffffff; }
+    .card p { color: var(--muted); font-size: 0.9rem; margin-bottom: 0.75rem; }
+    .card a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.9rem;
+    }
+    .card a:hover { text-decoration: underline; color: var(--accent-hover); }
+    section { margin-top: 2.5rem; }
+    h2 { font-size: 1.35rem; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1rem; }
+    ul { list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 0.5rem; }
+    li a {
+      color: var(--text);
+      text-decoration: none;
+      display: block;
+      padding: 0.4rem 0.6rem;
+      border-radius: 6px;
+      font-size: 0.95rem;
+    }
+    li a:hover { background: var(--card); color: var(--accent); }
+    footer { margin-top: 3.5rem; padding-top: 1.5rem; border-top: 1px solid var(--border); font-size: 0.85rem; color: var(--muted); }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Noota Documentation & LLM Hub</h1>
+    <p class="lead">Machine-readable Markdown documentation and standard indexes for AI search crawlers and LLM models.</p>
+    <div class="badge">Official ISO 27001 Certified &bull; EU Data Residency &bull; Zero AI Training</div>
+  </header>
+
+  <div class="quick-links">
+    <div class="card">
+      <h3>llms.txt</h3>
+      <p>Standardized root file for AI search crawlers (Perplexity, ChatGPT, Claude).</p>
+      <a href="./llms.txt">View llms.txt &rarr;</a>
+    </div>
+    <div class="card">
+      <h3>llms-full.txt</h3>
+      <p>Single bundled document containing all 38 Markdown files (125 KB).</p>
+      <a href="./llms-full.txt">View llms-full.txt &rarr;</a>
+    </div>
+    <div class="card">
+      <h3>Official Website</h3>
+      <p>Production marketing site with interactive demo and desktop download.</p>
+      <a href="https://www.noota.io" target="_blank" rel="noopener">Visit noota.io &rarr;</a>
+    </div>
+  </div>
+
+  <section>
+    <h2>Competitor Comparisons (12)</h2>
+    <ul>
+      <li><a href="./comparisons/noota-vs-copilot.md">Noota vs Microsoft Copilot</a></li>
+      <li><a href="./comparisons/noota-vs-fathom.md">Noota vs Fathom AI</a></li>
+      <li><a href="./comparisons/noota-vs-fireflies.md">Noota vs Fireflies.ai</a></li>
+      <li><a href="./comparisons/noota-vs-gemini.md">Noota vs Google Gemini</a></li>
+      <li><a href="./comparisons/noota-vs-granola.md">Noota vs Granola</a></li>
+      <li><a href="./comparisons/noota-vs-happyscribe.md">Noota vs Happy Scribe</a></li>
+      <li><a href="./comparisons/noota-vs-jamie.md">Noota vs Jamie</a></li>
+      <li><a href="./comparisons/noota-vs-leexi.md">Noota vs Leexi</a></li>
+      <li><a href="./comparisons/noota-vs-notta.md">Noota vs Notta</a></li>
+      <li><a href="./comparisons/noota-vs-otter.md">Noota vs Otter.ai</a></li>
+      <li><a href="./comparisons/noota-vs-plaud.md">Noota vs Plaud Note</a></li>
+      <li><a href="./comparisons/noota-vs-tldv.md">Noota vs tl;dv</a></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Core Features & Ecosystem</h2>
+    <ul>
+      <li><a href="./features/ai-note-taker.md">AI Note Taker</a></li>
+      <li><a href="./features/voice-dictation.md">Voice Dictation</a></li>
+      <li><a href="./features/mcp-server.md">MCP Server</a></li>
+      <li><a href="./features/integrations.md">Integrations (36 ATS, CRM, Tools)</a></li>
+      <li><a href="./features/phone-calls.md">Phone Call Recording</a></li>
+      <li><a href="./features/recruitment-agent.md">Recruitment Agent</a></li>
+      <li><a href="./features/email-automation.md">Email Automation</a></li>
+      <li><a href="./features/task-system.md">Task System</a></li>
+      <li><a href="./features/knowledge-management.md">Knowledge Base</a></li>
+      <li><a href="./features/supported-languages.md">Supported Languages</a></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Solutions & Governance</h2>
+    <ul>
+      <li><a href="./about/noota.md">About Noota (Entity Overview)</a></li>
+      <li><a href="./pricing/plans-and-tco.md">Pricing & Total Cost of Ownership</a></li>
+      <li><a href="./security/iso-27001-certification.md">ISO 27001 Certification</a></li>
+      <li><a href="./security/gdpr-and-data-processing.md">GDPR & Data Processing (DPA)</a></li>
+      <li><a href="./solutions/enterprise.md">Enterprise Solution</a></li>
+      <li><a href="./solutions/public-sector.md">Public Sector Solution</a></li>
+      <li><a href="./solutions/sales.md">Sales Solution</a></li>
+      <li><a href="./solutions/recruitment.md">Recruitment Solution</a></li>
+      <li><a href="./solutions/service-companies.md">Service Companies Solution</a></li>
+      <li><a href="./faq.md">Enterprise CISO FAQ</a></li>
+      <li><a href="./resources/meeting-templates.md">Meeting Templates Catalogue</a></li>
+      <li><a href="./resources/blog-and-knowledge.md">Blog & Knowledge Clusters</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Noota. Hosted on GitHub Pages. Mirror of <a href="https://www.noota.io" style="color: var(--accent);">noota.io</a>.</p>
+  </footer>
+</body>
+</html>
