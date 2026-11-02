@@ -1,0 +1,54 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://www.noota.io/#organization",
+  "name": "Noota",
+  "legalName": "Noota SAS",
+  "url": "https://www.noota.io",
+  "logo": "https://cdn.prod.website-files.com/637f41b2e090ecf0cf47bcb8/69a823d7c8e7393f00325a56_noota-navbar-dark.svg",
+  "foundingDate": "2020",
+  "foundingLocation": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Paris",
+      "addressCountry": "FR"
+    }
+  },
+  "description": "European AI assistant for meetings, calls and email with bot-free recording, EU data residency, and zero AI model training.",
+  "sameAs": [
+    "https://www.linkedin.com/company/noota-io/",
+    "https://twitter.com/noota_io",
+    "https://www.g2.com/products/noota/reviews",
+    "https://www.trustpilot.com/review/noota.io",
+    "https://www.youtube.com/@noota-ai"
+  ],
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "contactType": "sales",
+      "email": "sales@noota.io",
+      "url": "https://www.noota.io/book-a-demo"
+    },
+    {
+      "@type": "ContactPoint",
+      "contactType": "customer support",
+      "email": "support@noota.io"
+    },
+    {
+      "@type": "ContactPoint",
+      "contactType": "data protection officer",
+      "email": "dpo@noota.io"
+    }
+  ],
+  "knowsAbout": [
+    "AI Meeting Assistant",
+    "Speech to Text Transcription",
+    "Bot-Free Meeting Recording",
+    "GDPR Compliance",
+    "ISO 27001 Certification",
+    "Sovereign Cloud AI",
+    "MEDDIC Sales Qualification",
+    "Applicant Tracking System Integration"
+  ]
+}

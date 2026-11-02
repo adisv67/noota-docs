@@ -1,0 +1,55 @@
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Noota",
+  "applicationCategory": "BusinessApplication",
+  "operatingSystem": "macOS, Windows, Web, iOS, Android",
+  "url": "https://www.noota.io",
+  "description": "Bot-free AI meeting assistant, audio transcription across 50+ languages, automated meeting minutes, task extraction, and CRM/ATS synchronization.",
+  "softwareVersion": "2026.11",
+  "offers": [
+    {
+      "@type": "Offer",
+      "name": "Free Plan",
+      "price": "0",
+      "priceCurrency": "EUR",
+      "description": "50 AI credits per month, unlimited manual meeting notes, 1-month retention, Zapier and MCP server"
+    },
+    {
+      "@type": "Offer",
+      "name": "Pro Plan (Annual)",
+      "price": "19",
+      "priceCurrency": "EUR",
+      "billingDuration": "P1M",
+      "description": "€19/user/month billed annually - bot-free recording, CRM sync (HubSpot, Salesforce, Pipedrive), 50+ languages"
+    },
+    {
+      "@type": "Offer",
+      "name": "Business Plan (Annual)",
+      "price": "39",
+      "priceCurrency": "EUR",
+      "billingDuration": "P1M",
+      "description": "€39/user/month billed annually - native VoIP phone calling (Aircall, Ringover), ATS integrations, shared team workspace"
+    }
+  ],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "bestRating": "5",
+    "ratingCount": "418",
+    "reviewCount": "418"
+  },
+  "publisher": {
+    "@id": "https://www.noota.io/#organization"
+  },
+  "featureList": [
+    "Bot-Free Desktop Audio Recording (macOS ScreenCaptureKit & Windows WASAPI)",
+    "Automatic Transcription & Diarization in 50+ Languages",
+    "Automated Meeting Minutes, Executive Summaries & Action Items",
+    "Post-Call Follow-Up Email Generation (Gmail & Outlook)",
+    "Direct Two-Way CRM Sync (Salesforce, HubSpot, Pipedrive)",
+    "Recruitment ATS Scorecards (Bullhorn, Greenhouse, Workable)",
+    "ISO 27001 certified; DPA available",
+    "Strict Zero-Training AI Policy Across All Plans"
+  ]
+}

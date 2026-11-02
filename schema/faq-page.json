@@ -1,0 +1,62 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Does Noota join meetings as a visible virtual bot?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. By default, Noota records calls without a bot using a native desktop application for macOS and Windows that intercepts system audio loopback. No virtual bot attendee joins the call or appears in the participant list. A calendar bot is also available as an option."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Where is customer meeting data stored and hosted?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For standard plans, all data is stored and processed in the European Union on Google Cloud Platform infrastructure in Belgium and the Netherlands. For regulated enterprise clients, Noota offers a sovereign French infrastructure hosted on Scaleway (Paris) and Bleu."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Noota use customer recordings or transcripts to train AI models?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Never. Noota enforces a strict, contractual ZERO-training policy across all tiers, including the Free tier. Customer voice audio, transcripts, summaries, and emails are never used to train internal or third-party AI models."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Noota ISO 27001 certified, and how does it handle GDPR?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Noota is officially ISO 27001 certified for information security management, and SOC 2 Type 2 certification is currently in progress. Noota has an appointed Data Protection Officer (DPO) and standard Data Processing Agreements."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does Noota cost?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Noota offers four plans: Free (€0/month with 50 AI credits), Pro (€19/user/month billed annually), Business (€39/user/month billed annually), and Enterprise with custom quotes for sovereign cloud and SSO."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many languages does Noota support for transcription?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Noota supports high-accuracy speech-to-text and diarization across 50+ languages natively, including mixed-language conversations (code-switching) and one-click translation into English, French, Spanish, German, Italian, and Dutch."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Noota keep the original raw audio recording?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Unlike competitors like Granola that discard raw audio, Noota preserves the complete raw audio recording alongside synchronized interactive transcripts, allowing users to verify any quote directly."
+      }
+    }
+  ]
+}
