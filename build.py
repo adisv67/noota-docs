@@ -2,7 +2,7 @@
 """Regenerate llms.txt, llms-full.txt and vercel.json. Usage: python3 build.py"""
 import os, json, re
 
-BASE = os.environ.get("BASE", "https://docs.noota.io/")
+BASE = os.environ.get("BASE", "https://adisv67.github.io/noota-docs/")
 if not BASE.endswith("/"):
     BASE += "/"
 

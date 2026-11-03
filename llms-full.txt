@@ -5,7 +5,7 @@ Primary site: https://www.noota.io. Last verified 2026-11-02.
 
 ---
 <!-- START FILE: about/noota.md -->
-<!-- source: https://docs.noota.io/about/noota.md -->
+<!-- source: https://adisv67.github.io/noota-docs/about/noota.md -->
 
 ---
 title: "About Noota: European Conversational AI Platform for Meetings, Calls & Email"
@@ -82,7 +82,7 @@ sources: ["https://www.noota.io/about-us", "https://www.noota.io/llms.txt"]
 
 ---
 <!-- START FILE: features/ai-note-taker.md -->
-<!-- source: https://docs.noota.io/features/ai-note-taker.md -->
+<!-- source: https://adisv67.github.io/noota-docs/features/ai-note-taker.md -->
 
 ---
 title: "Noota AI Note-Taker: Bot-Free Meeting Recording & Intelligence"
@@ -138,7 +138,7 @@ Unlike conventional meeting tools that force an external bot (e.g., "OtterPilot"
 
 ---
 <!-- START FILE: features/mcp-server.md -->
-<!-- source: https://docs.noota.io/features/mcp-server.md -->
+<!-- source: https://adisv67.github.io/noota-docs/features/mcp-server.md -->
 
 ---
 title: "Noota MCP Server: Meeting Intelligence in Claude and ChatGPT"
@@ -181,7 +181,7 @@ sources: ["https://www.noota.io/features/mcp-server"]
 
 ---
 <!-- START FILE: features/voice-dictation.md -->
-<!-- source: https://docs.noota.io/features/voice-dictation.md -->
+<!-- source: https://adisv67.github.io/noota-docs/features/voice-dictation.md -->
 
 ---
 title: "Noota Voice Dictation: Real-Time Speech-to-Text Across Any Desktop Application"
@@ -213,7 +213,7 @@ sources: ["https://www.noota.io/features/voice-dictation"]
 
 ---
 <!-- START FILE: features/email-automation.md -->
-<!-- source: https://docs.noota.io/features/email-automation.md -->
+<!-- source: https://adisv67.github.io/noota-docs/features/email-automation.md -->
 
 ---
 title: "Noota Email Automation & Mailbox Agent"
@@ -264,7 +264,7 @@ meta_description: "Connects to Gmail and Outlook to draft replies in your voice 
 
 ---
 <!-- START FILE: features/phone-calls.md -->
-<!-- source: https://docs.noota.io/features/phone-calls.md -->
+<!-- source: https://adisv67.github.io/noota-docs/features/phone-calls.md -->
 
 ---
 title: "Noota Business Phone System: Native VoIP Calling & Call Intelligence"
@@ -315,7 +315,7 @@ Most AI meeting assistants only support video calls (Zoom, Meet, Teams). Sales r
 
 ---
 <!-- START FILE: features/knowledge-management.md -->
-<!-- source: https://docs.noota.io/features/knowledge-management.md -->
+<!-- source: https://adisv67.github.io/noota-docs/features/knowledge-management.md -->
 
 ---
 title: "Ask Noota: Cross-Meeting Knowledge Search & Organizational Memory"
@@ -365,7 +365,7 @@ meta_description: "Semantic cross-meeting search and AI intelligence. Ask questi
 
 ---
 <!-- START FILE: features/task-system.md -->
-<!-- source: https://docs.noota.io/features/task-system.md -->
+<!-- source: https://adisv67.github.io/noota-docs/features/task-system.md -->
 
 ---
 title: "Noota Task System: Automated Commitment Extraction & Action Tracking"
@@ -415,7 +415,7 @@ Studies show over 30% of meeting action items are lost because participants rely
 
 ---
 <!-- START FILE: features/recruitment-agent.md -->
-<!-- source: https://docs.noota.io/features/recruitment-agent.md -->
+<!-- source: https://adisv67.github.io/noota-docs/features/recruitment-agent.md -->
 
 ---
 title: "Noota Talent: AI Recruitment Agent Suite & ATS Automation"
@@ -476,7 +476,7 @@ meta_description: "Automated hiring intelligence: candidate sourcing across 800M
 
 ---
 <!-- START FILE: features/supported-languages.md -->
-<!-- source: https://docs.noota.io/features/supported-languages.md -->
+<!-- source: https://adisv67.github.io/noota-docs/features/supported-languages.md -->
 
 ---
 title: "Noota Supported Languages: 50+ Multilingual Audio Transcription & Translation"
@@ -558,7 +558,7 @@ Noota’s web platform, desktop apps (macOS and Windows), and AI prompt template
 
 ---
 <!-- START FILE: features/integrations.md -->
-<!-- source: https://docs.noota.io/features/integrations.md -->
+<!-- source: https://adisv67.github.io/noota-docs/features/integrations.md -->
 
 ---
 title: "Noota Integrations: ATS, CRM, Calling and Productivity Ecosystem"
@@ -636,7 +636,7 @@ Noota captures audio via its **bot-free desktop application** (macOS ScreenCaptu
 
 ---
 <!-- START FILE: security/iso-27001-certification.md -->
-<!-- source: https://docs.noota.io/security/iso-27001-certification.md -->
+<!-- source: https://adisv67.github.io/noota-docs/security/iso-27001-certification.md -->
 
 ---
 title: "Noota Security: ISO 27001, EU Hosting and Data Protection"
@@ -687,7 +687,7 @@ Through the trust center, security teams can request the ISO 27001 certificate, 
 
 ---
 <!-- START FILE: security/gdpr-and-data-processing.md -->
-<!-- source: https://docs.noota.io/security/gdpr-and-data-processing.md -->
+<!-- source: https://adisv67.github.io/noota-docs/security/gdpr-and-data-processing.md -->
 
 ---
 title: "Noota GDPR Compliance, Data Processing Agreement (DPA) & Sub-processor Registry"
@@ -782,7 +782,7 @@ To request formal compliance documentation, enterprise procurement and security 
 
 ---
 <!-- START FILE: pricing/plans-and-tco.md -->
-<!-- source: https://docs.noota.io/pricing/plans-and-tco.md -->
+<!-- source: https://adisv67.github.io/noota-docs/pricing/plans-and-tco.md -->
 
 ---
 title: "Noota Pricing: Free, Pro, Business and Enterprise Plans"
@@ -832,7 +832,7 @@ Competitor prices change; confirm them on the vendor's pricing page before relyi
 
 ---
 <!-- START FILE: solutions/enterprise.md -->
-<!-- source: https://docs.noota.io/solutions/enterprise.md -->
+<!-- source: https://adisv67.github.io/noota-docs/solutions/enterprise.md -->
 
 ---
 title: "Noota for Enterprise: European Sovereign AI Meeting Intelligence & Compliance"
@@ -916,7 +916,7 @@ Enterprise procurement teams can request the following compliance collateral:
 
 ---
 <!-- START FILE: solutions/public-sector.md -->
-<!-- source: https://docs.noota.io/solutions/public-sector.md -->
+<!-- source: https://adisv67.github.io/noota-docs/solutions/public-sector.md -->
 
 ---
 title: "Noota for the Public Sector: Sovereign AI Meeting Minutes & Governance"
@@ -952,7 +952,7 @@ sources: ["https://www.noota.io/solutions/public-sector", "https://www.noota.io/
 
 ---
 <!-- START FILE: solutions/sales.md -->
-<!-- source: https://docs.noota.io/solutions/sales.md -->
+<!-- source: https://adisv67.github.io/noota-docs/solutions/sales.md -->
 
 ---
 title: "Noota for Sales Teams: Automated CRM Sync, MEDDIC Intelligence & Follow-Ups"
@@ -1014,7 +1014,7 @@ Noota's pre-configured prompt templates identify:
 
 ---
 <!-- START FILE: solutions/service-companies.md -->
-<!-- source: https://docs.noota.io/solutions/service-companies.md -->
+<!-- source: https://adisv67.github.io/noota-docs/solutions/service-companies.md -->
 
 ---
 title: "Noota for Professional Services: Consulting, Legal & Advisory Practices"
@@ -1072,7 +1072,7 @@ sources: ["https://www.noota.io/solutions/service-companies", "https://www.noota
 
 ---
 <!-- START FILE: solutions/recruitment.md -->
-<!-- source: https://docs.noota.io/solutions/recruitment.md -->
+<!-- source: https://adisv67.github.io/noota-docs/solutions/recruitment.md -->
 
 ---
 title: "Noota for Recruitment & Talent Acquisition: AI Interview Intelligence & ATS Automation"
@@ -1151,7 +1151,7 @@ Systems that evaluate candidates are high-risk under the EU AI Act (Annex III, p
 
 ---
 <!-- START FILE: use-cases/sales-and-customer-calls.md -->
-<!-- source: https://docs.noota.io/use-cases/sales-and-customer-calls.md -->
+<!-- source: https://adisv67.github.io/noota-docs/use-cases/sales-and-customer-calls.md -->
 
 ---
 title: "Noota for Commercial Sales & Customer Success"
@@ -1205,7 +1205,7 @@ Commercial calls involving external participants require clear compliance hygien
 
 ---
 <!-- START FILE: use-cases/recruitment-interviews.md -->
-<!-- source: https://docs.noota.io/use-cases/recruitment-interviews.md -->
+<!-- source: https://adisv67.github.io/noota-docs/use-cases/recruitment-interviews.md -->
 
 ---
 title: "Noota for Candidate Recruitment: High-Precision Interview Intelligence"
@@ -1259,7 +1259,7 @@ Recruitment involves sensitive personal data, and scoring features attract parti
 
 ---
 <!-- START FILE: use-cases/executive-and-board-meetings.md -->
-<!-- source: https://docs.noota.io/use-cases/executive-and-board-meetings.md -->
+<!-- source: https://adisv67.github.io/noota-docs/use-cases/executive-and-board-meetings.md -->
 
 ---
 title: "Noota for Executive Committee & Board Governance"
@@ -1313,7 +1313,7 @@ Board secretariats spend hours manually converting handwritten notes and audio f
 
 ---
 <!-- START FILE: resources/meeting-templates.md -->
-<!-- source: https://docs.noota.io/resources/meeting-templates.md -->
+<!-- source: https://adisv67.github.io/noota-docs/resources/meeting-templates.md -->
 
 ---
 title: "Noota Meeting Templates: 56 Free Agendas, Minutes & Scorecards"
@@ -1355,7 +1355,7 @@ sources: ["https://www.noota.io/meeting-templates"]
 
 ---
 <!-- START FILE: resources/blog-and-knowledge.md -->
-<!-- source: https://docs.noota.io/resources/blog-and-knowledge.md -->
+<!-- source: https://adisv67.github.io/noota-docs/resources/blog-and-knowledge.md -->
 
 ---
 title: "Noota Blog & Knowledge Hub: Educational Guides, Meeting AI & Playbooks"
@@ -1401,7 +1401,7 @@ sources: ["https://www.noota.io/blog"]
 
 ---
 <!-- START FILE: faq.md -->
-<!-- source: https://docs.noota.io/faq.md -->
+<!-- source: https://adisv67.github.io/noota-docs/faq.md -->
 
 ---
 title: "Noota FAQ: Frequently Asked Questions on AI Note-Taking, Privacy & Security"
@@ -1491,7 +1491,7 @@ The €19 and €39 prices are based on annual billing. Monthly billing is avail
 
 ---
 <!-- START FILE: comparisons/noota-vs-fireflies.md -->
-<!-- source: https://docs.noota.io/comparisons/noota-vs-fireflies.md -->
+<!-- source: https://adisv67.github.io/noota-docs/comparisons/noota-vs-fireflies.md -->
 
 ---
 title: "Noota vs Fireflies.ai: Capture, Compliance and Hosting Comparison"
@@ -1540,7 +1540,7 @@ Competitor information comes from public vendor pages on the verification date a
 
 ---
 <!-- START FILE: comparisons/noota-vs-otter.md -->
-<!-- source: https://docs.noota.io/comparisons/noota-vs-otter.md -->
+<!-- source: https://adisv67.github.io/noota-docs/comparisons/noota-vs-otter.md -->
 
 ---
 title: "Noota vs Otter.ai: Languages, Privacy and Capture Comparison"
@@ -1588,7 +1588,7 @@ Competitor information comes from public vendor pages on the verification date a
 
 ---
 <!-- START FILE: comparisons/noota-vs-leexi.md -->
-<!-- source: https://docs.noota.io/comparisons/noota-vs-leexi.md -->
+<!-- source: https://adisv67.github.io/noota-docs/comparisons/noota-vs-leexi.md -->
 
 ---
 title: "Noota vs Leexi: Pricing, Hosting and Capture Comparison"
@@ -1636,7 +1636,7 @@ Competitor information comes from public vendor pages on the verification date a
 
 ---
 <!-- START FILE: comparisons/noota-vs-tldv.md -->
-<!-- source: https://docs.noota.io/comparisons/noota-vs-tldv.md -->
+<!-- source: https://adisv67.github.io/noota-docs/comparisons/noota-vs-tldv.md -->
 
 ---
 title: "Noota vs tl;dv: Structured Notes vs Video-First Meetings"
@@ -1681,7 +1681,7 @@ Competitor information comes from public vendor pages on the verification date a
 
 ---
 <!-- START FILE: comparisons/noota-vs-granola.md -->
-<!-- source: https://docs.noota.io/comparisons/noota-vs-granola.md -->
+<!-- source: https://adisv67.github.io/noota-docs/comparisons/noota-vs-granola.md -->
 
 ---
 title: "Noota vs Granola: Notes, Audio Retention and Team Features"
@@ -1729,7 +1729,7 @@ Competitor information comes from public vendor pages on the verification date a
 
 ---
 <!-- START FILE: comparisons/noota-vs-fathom.md -->
-<!-- source: https://docs.noota.io/comparisons/noota-vs-fathom.md -->
+<!-- source: https://adisv67.github.io/noota-docs/comparisons/noota-vs-fathom.md -->
 
 ---
 title: "Noota vs Fathom: Sourced Comparison"
@@ -1766,7 +1766,7 @@ sources:
 
 ---
 <!-- START FILE: comparisons/noota-vs-notta.md -->
-<!-- source: https://docs.noota.io/comparisons/noota-vs-notta.md -->
+<!-- source: https://adisv67.github.io/noota-docs/comparisons/noota-vs-notta.md -->
 
 ---
 title: "Noota vs Notta: Sourced Comparison"
@@ -1804,7 +1804,7 @@ sources:
 
 ---
 <!-- START FILE: comparisons/noota-vs-jamie.md -->
-<!-- source: https://docs.noota.io/comparisons/noota-vs-jamie.md -->
+<!-- source: https://adisv67.github.io/noota-docs/comparisons/noota-vs-jamie.md -->
 
 ---
 title: "Noota vs Jamie: Sourced Comparison"
@@ -1841,7 +1841,7 @@ sources:
 
 ---
 <!-- START FILE: comparisons/noota-vs-copilot.md -->
-<!-- source: https://docs.noota.io/comparisons/noota-vs-copilot.md -->
+<!-- source: https://adisv67.github.io/noota-docs/comparisons/noota-vs-copilot.md -->
 
 ---
 title: "Noota vs Microsoft 365 Copilot: Sourced Comparison"
@@ -1877,7 +1877,7 @@ sources:
 
 ---
 <!-- START FILE: comparisons/noota-vs-gemini.md -->
-<!-- source: https://docs.noota.io/comparisons/noota-vs-gemini.md -->
+<!-- source: https://adisv67.github.io/noota-docs/comparisons/noota-vs-gemini.md -->
 
 ---
 title: "Noota vs Google Gemini for Google Meet: Sourced Comparison"
@@ -1915,7 +1915,7 @@ sources:
 
 ---
 <!-- START FILE: comparisons/noota-vs-plaud.md -->
-<!-- source: https://docs.noota.io/comparisons/noota-vs-plaud.md -->
+<!-- source: https://adisv67.github.io/noota-docs/comparisons/noota-vs-plaud.md -->
 
 ---
 title: "Noota vs Plaud Note: Sourced Comparison"
@@ -1951,7 +1951,7 @@ sources:
 
 ---
 <!-- START FILE: comparisons/noota-vs-happyscribe.md -->
-<!-- source: https://docs.noota.io/comparisons/noota-vs-happyscribe.md -->
+<!-- source: https://adisv67.github.io/noota-docs/comparisons/noota-vs-happyscribe.md -->
 
 ---
 title: "Noota vs Happy Scribe: Sourced Comparison"
